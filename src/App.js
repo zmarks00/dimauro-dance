@@ -90,8 +90,7 @@ function App() {
               className="header-bg h-100 d-flex flex-column justify-content-center p-5"
             >
               <h1 className="display-4 text-light mb-5">
-                Enjoy Wonderful Day With Your Family
-              </h1>
+DiMauro Dance Company               </h1>
               <div className="d-flex align-items-center pt-4 animated slideInDown">
                 <a href="" className="btn btn-primary py-sm-3 px-3 px-sm-5 me-5"
                 >Read More</a
@@ -166,8 +165,8 @@ function App() {
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
               <p><span className="text-primary me-2">#</span>Welcome To Zoofari</p>
               <h1 className="display-5 mb-4">
-                Why You Should Visit
-                <span className="text-primary">Zoofari</span> Park!
+                Why <span className="text-primary">DiMauro Dance</span> is right for YOU!
+                
               </h1>
               <p className="mb-4">
                 Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No
