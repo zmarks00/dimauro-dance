@@ -4,34 +4,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        DiMauro Dance
-
-        <p>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-
-      <div
-        id="spinner"
-        className="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
-      >
-        <div
-          className="spinner-border text-primary"
-          style={{ width: "3rem", height: "3rem" }}
-          role="status"
-        >
-          <span className="sr-only">Loading...</span>
-        </div>
-      </div>
-
       <div className="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
         <div className="row gx-0 d-none d-lg-flex">
           <div className="col-lg-7 px-5 text-start">
@@ -775,7 +747,7 @@ function App() {
             <div className="col-lg-3 col-md-6">
               <h5 className="text-light mb-4">Newsletter</h5>
               <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-              <div className="position-relative mx-auto" style={{"max-width": "400px"}}>
+              <div className="position-relative mx-auto" style={{ "max-width": "400px" }}>
                 <input
                   className="form-control border-0 w-100 py-3 ps-4 pe-5"
                   type="text"
@@ -817,7 +789,7 @@ function App() {
       ></a>
 
 
-      
+
     </div>
   );
 }
