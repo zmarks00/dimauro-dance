@@ -10,7 +10,6 @@ function App() {
       >
         <a href="index.html" className="navbar-brand p-0">
           <img className="img-fluid me-3" src="img/logo.jpg" alt="Icon" />
-
         </a>
         <button
           type="button"
@@ -30,8 +29,7 @@ function App() {
                 href="#"
                 className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
-              >Pages</a
-              >
+              >Pages</a>
               <div className="dropdown-menu rounded-0 rounded-bottom m-0">
                 <a href="animal.html" className="dropdown-item">Our Animals</a>
                 <a href="membership.html" className="dropdown-item">Membership</a>
