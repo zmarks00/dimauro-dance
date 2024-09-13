@@ -7,7 +7,7 @@ function App() {
               <div className="container-fluid position-relative d-flex align-items-center justify-content-between">
 
                   <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
-                      <h1 className="sitename">Laura</h1>
+                      <h1 className="sitename">Jessie</h1>
                   </a>
 
                   <nav id="navmenu" className="navmenu">
@@ -56,7 +56,7 @@ function App() {
                   <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in"/>
 
                   <div className="container text-center" data-aos="fade-up" data-aos-delay="100">
-                      <h2>Laura Thomson</h2>
+                      <h2>Jessie</h2>
                       <p>I'M A PROFESSIONAL PHOTOGRAPHER IN NEW YORK CITY</p>
                       <a href="#about" className="btn-scroll" title="Scroll Down"><i className="bi bi-chevron-down"></i></a>
                   </div>
@@ -866,7 +866,7 @@ function App() {
 
           <footer id="footer" className="footer position-relative dark-background">
               <div className="container">
-                  <h3 className="sitename">Laura Thomson<br/></h3>
+                  <h3 className="sitename">Jessie<br/></h3>
                   <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
                   <div className="social-links d-flex justify-content-center">
                       <a href=""><i className="bi bi-twitter-x"></i></a>
@@ -877,7 +877,7 @@ function App() {
                   </div>
                   <div className="container">
                       <div className="copyright">
-                          <span>Copyright</span> <strong className="px-1 sitename">Laura</strong> <span>All Rights Reserved</span>
+                          <span>Copyright</span> <strong className="px-1 sitename">Jessie</strong> <span>All Rights Reserved</span>
                       </div>
                       <div className="credits">
 
