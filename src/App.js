@@ -118,7 +118,7 @@ function App() {
 
                   
                   <div className="container section-title" data-aos="fade-up">
-                      <span className="description-title">Muy Resume</span>
+                      <span className="description-title">My Resume</span>
                       <h2>My Resume</h2>
                       <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
                   </div>
@@ -129,7 +129,7 @@ function App() {
                       <div className="row">
 
                           <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                              <h3 className="resume-title">Sumary</h3>
+                              <h3 className="resume-title">Summary</h3>
 
                               <div className="resume-item pb-0">
                                   <h4>Brandon Johnson</h4>
