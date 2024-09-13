@@ -1,0 +1,14 @@
+// https://coolors.co/606c38-283618-fefae0-47180b-2f243a
+// https://coolors.co/606c38-283618-fefae0-581e0e-95170e
+// https://coolors.co/606c38-283618-fefae0-dda15e-bc6c25
+
+// Override default variables before the import
+$body-bg: #283618;
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+body {
+    background-color: $body-bg;
+    color: #0F0D01;
+}
