@@ -7,16 +7,16 @@ function App() {
               <div className="container-fluid position-relative d-flex align-items-center justify-content-between">
 
                   <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
-                      <h1 className="sitename">Jessie</h1>
+                      <h1 className="sitename">Jessica DiMauro Marks</h1>
                   </a>
 
                   <nav id="navmenu" className="navmenu">
                       <ul>
                           <li><a href="#hero" className="active">Home</a></li>
-                          <li><a href="#about">About</a></li>
-                          <li><a href="#resume">Resume</a></li>
-                          <li><a href="#services">Services</a></li>
-                          <li><a href="#portfolio">Portfolio</a></li>
+                          <li><a href="#about">DiMauro Dance</a></li>
+                          <li><a href="#resume">Choreography</a></li>
+                          <li><a href="#services">Yoga</a></li>
+                          <li><a href="#portfolio">Educator</a></li>
                           <li className="dropdown"><a href="#"><span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
                               <ul>
                                   <li><a href="#">Dropdown 1</a></li>
@@ -53,11 +53,11 @@ function App() {
 
               <section id="hero" className="hero section dark-background">
 
-                  <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in"/>
+                  <img src="assets/img/jessie2.webp" alt="" data-aos="fade-in"/>
 
                   <div className="container text-center" data-aos="fade-up" data-aos-delay="100">
-                      <h2>Jessie</h2>
-                      <p>I'M A PROFESSIONAL PHOTOGRAPHER IN NEW YORK CITY</p>
+                      <h2>Jessica DiMauro Marks</h2>
+                      <p>Dancer / Choreography / Yoga / Educator / Awesome Wife</p>
                       <a href="#about" className="btn-scroll" title="Scroll Down"><i className="bi bi-chevron-down"></i></a>
                   </div>
 
