@@ -7,7 +7,7 @@ function App() {
               <div className="container-fluid position-relative d-flex align-items-center justify-content-between">
 
                   <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
-                      <h1 className="sitename">Jessica DiMauro Marks</h1>
+                      <h1 className="sitename">JESSICA DiMAURO MARKS</h1>
                   </a>
 
                   <nav id="navmenu" className="navmenu">
@@ -56,8 +56,8 @@ function App() {
                   <img src="assets/img/jessie2.webp" alt="" data-aos="fade-in"/>
 
                   <div className="container text-center" data-aos="fade-up" data-aos-delay="100">
-                      <h2>Jessica DiMauro Marks</h2>
-                      <p>Dancer / Choreography / Yoga / Educator / Awesome Wife</p>
+                      <h2>JESSICA DiMAURO MARKS</h2>
+                      <p>DANCER / CHOREOGRAPHY / YOGA / EDUCATOR / AWESOME WIFE</p>
                       <a href="#about" className="btn-scroll" title="Scroll Down"><i className="bi bi-chevron-down"></i></a>
                   </div>
 
@@ -66,9 +66,10 @@ function App() {
               <section id="about" className="about section">
 
                   <div className="container section-title" data-aos="fade-up">
-                      <span className="description-title">About me</span>
-                      <h2>About Me</h2>
-                      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                      <span className="description-title">DiMAURO DANCE</span>
+                      <h2>DiMAURO DANCE</h2>
+                      <p>
+Jessica DiMauro Marks, a New York native, is a modern dance choreographer invested in creating work that is rich in physicality and deeply communicative. Ms. DiMauro Marks holds an MFA in Choreography from Jacksonville University and a BFA in Dance from Marymount Manhattan College. She has taught and choreographed works extensively for both pre-professional and professional dance companies in the greater NY area, as well as in New Jersey, Connecticut and Florida. Ms. DiMauro’s company, DiMauro Dance, has been selected to perform at numerous curated festivals including Dance Conversations at The Flea, WHITE WAVE's WAVE RISING Series, COOL NY and DUMBO Dance Festivals, The T: Dance, Watch, Reflect, Greenspace Blooms, The HATCH presenting series, CT Meets NY, Queens Arts Express and New Dance Downtown. Ms. DiMauro Marks was awarded an Arts Alive Artist Grant from ArtsWestchester for her work entitled com-mu-ni-ty. DiMauro Dance frequently performs as Guest Artists including the 2009 Annual Benefit for The Steffi Nossen Dance Foundation where Jessica currently has the pleasure of acting as Artistic Director and Producer, as well as being commissioned for works in 2014 and 2004. In addition, Ms. DiMauro Marks self-produced METROPOLIS at Manhattan Movement & Arts Center in March 2015, Unraveled at the Merce Cunningham Studio in 2011 and Confetti: A Collection of Works by Jessica DiMauro at The Producers’ Club Theaters in 2003. Her choreography was also seen at the 2004 International NYC Fringe Festival in Granola! The Musical at The Michael Schimmel Center for the Arts. In the Fall of 2021, Jessica will set her seventeenth work on the BFA Dance students at Montclair State University where she is on faculty as a professor of Modern Technique. She will also act as Rehearsal Director for Stacey Tookey’s new work for the MSU dancers. She has also acted as the Rehearsal Director for Mark Morris’s Polka, Martha Graham’s Panorama, and Bill T. Jones’ work Spent Days Out Yonder. During the 2012-13 academic year she served as Rehearsal Director for the staging of Martha Graham’s Daughters of the Night; the Chorus from Night Journey, which was performed at the Joyce Theater in February 2013. In the Fall of 2015, Jessica’s work was performed by the BA candidates at Marymount Manhattan College.  In the summer of 2013, Ms. DiMauro Marks was proud to be among the first few students to be certified in May O’Donnell Technique. Ms. DiMauro Marks is a Certified Kripalu Yoga Teacher, ACE-Certified Personal Trainer and Group Fitness Instructor.</p>
                   </div>
 
                   <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -78,34 +79,35 @@ function App() {
                               <img src="assets/img/profile-img.jpg" className="img-fluid" alt=""/>
                           </div>
                           <div className="col-lg-8 content">
-                              <h2>UI/UX Designer &amp; Web Developer.</h2>
+                              <h2><b>THE COMPANY</b></h2>
                               <p className="fst-italic py-3">
-                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                  magna aliqua.
+                                 
+<b>Technique is the skeleton of our work. Human emotions are the muscles that move our creative process. </b>
+
+ 
+
+As a choreographer deeply invested in the artistic exploration of the human experience, Jessica DiMauro has always been intrigued by the challenge of developing literal gesture into abstract movement while keeping the emotional integrity. In the company's work, the body is used as a vessel to express the rich layers of human emotion. DiMauro is constantly fascinated by the body’s ability to express subtlety and grace, and conversely show aggression and struggle. Her choreography tells a story or sheds light on a particular subject, while giving the performer the opportunity to viscerally experience the emotional intention through movement. She composes movement that is structurally athletic and emotionally driven. Through performances that utilize community participation as a foundation, the company has made it a goal to bring the public into the world of concert dance; specifically the infrequent dance spectator who is intimidated, frustrated or confused by the opacity of modern dance. As an artist, DiMauro wants to create work that entertains with depth. Personal stories and emotional journeys are revealed through movement that is accessible and experienced by the people who watch it.​
+ 
                               </p>
                               <div className="row">
                                   <div className="col-lg-6">
                                       <ul>
-                                          <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-                                          <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                                          <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                                          <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
-                                      </ul>
-                                  </div>
-                                  <div className="col-lg-6">
-                                      <ul>
-                                          <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                                          <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                                          <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
-                                          <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                                          <li><i className="bi bi-chevron-right"></i> <strong>CURRENT PRODUCTION:</strong> <span>
+                                            <p> <a href="https://www.danceentropy.org/new-events/2024/9/12/underground-at-adgs-bare-bones-showcase" target="_blank">ADG's Bare Bones Series</a>
+                                                <p>SUNDAY, NOVEMBER 17TH, 2024 4:00 PM</p>
+                                                <p>THE Ailey Studios</p>
+                                                <p>455 West 55th Street, NYC</p></p>
+                                                <p>MORE INFO to come!</p> </span></li>
+                                          <li><i className="bi bi-chevron-right"></i> <strong>COMPANY MEMBERS:</strong> <span>
+                                            <p>DAVON CHANCE</p>
+                                            <p>NAJEE STEPHENSON</p>
+                                            <p>CRYSTAL RODRIGUEZ</p>
+                                            <p>ALEXANDRA WILLIAMSON</p>
+                                            <p>FRANCESCA ZERBO</p></span></li>
                                       </ul>
                                   </div>
                               </div>
-                              <p className="py-3">
-                                  Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius
-                                  omnis.
-                                  Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
-                              </p>
+                            
                           </div>
                       </div>
 
@@ -118,8 +120,8 @@ function App() {
 
                   
                   <div className="container section-title" data-aos="fade-up">
-                      <span className="description-title">My Resume</span>
-                      <h2>My Resume</h2>
+                      <span className="description-title">MY RESUME</span>
+                      <h2>MY RESUME</h2>
                       <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
                   </div>
                   
@@ -201,9 +203,10 @@ function App() {
 
                   
                   <div className="container section-title" data-aos="fade-up">
-                      <span className="description-title">My Services</span>
-                      <h2>My Services</h2>
-                      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                      <span className="description-title">YOGA</span>
+                      <h2>YOGA</h2>
+                      <p>Jessica DiMauro Marks began practicing yoga as a compliment to her dance training over twenty years ago. It wasn’t until a serious dance injury that she began to truly dive into a regular practice. Since then, yoga has played an integral role in her life and she has made it a goal to bring her love of movement into the lives of others through a yoga practice rooted in compassion. She received her 200-hour certification in 2012 from the
+                      Kripalu School of Yoga. She has also completed her 85-hour certification in Prenatal and Postnatal yoga. Jessica's classes provide a heightened focus on alignment within a flow-based practice. Honoring the Kripalu tradition, compassionate self-awareness is encouraged and practiced through unique pose sequencing. Students are guided to listen to the needs of their bodies in the present and modifications for poses are given. Props are encouraged! Supporting students through mindful movement is the goal of each class.</p>
                   </div>
                   
 
