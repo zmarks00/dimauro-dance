@@ -93,7 +93,7 @@ function App() {
                                             <p>NAJEE STEPHENSON</p>
                                             <p>CRYSTAL RODRIGUEZ</p>
                                             <p>ALEXANDRA WILLIAMSON</p>
-                                            <p>FRANCESCA ZERBO</p></span></li>
+                                            </span></li>
                                           
                                         <li><i className="bi bi-chevron-right"></i> <strong>CURRENT PRODUCTION:</strong> <span>
                                         <p><a href="https://www.danceentropy.org/new-events/2024/9/12/underground-at-adgs-bare-bones-showcase" target="_blank">ADG's Bare Bones Series </a></p> 
@@ -203,7 +203,7 @@ function App() {
                   <div className="container section-title" data-aos="fade-up">
                       <span className="description-title">YOGA</span>
                       <h2>YOGA</h2>
-                      <p>Jessica DiMauro Marks began practicing yoga as a compliment to her dance training over twenty years ago. It wasn’t until a serious dance injury that she began to truly dive into a regular practice. Since then, yoga has played an integral role in her life and she has made it a goal to bring her love of movement into the lives of others through a yoga practice rooted in compassion. She received her 200-hour certification in 2012 from the
+                      <p><b>Jessica DiMauro Marks</b> began practicing yoga as a compliment to her dance training over twenty years ago. It wasn’t until a serious dance injury that she began to truly dive into a regular practice. Since then, yoga has played an integral role in her life and she has made it a goal to bring her love of movement into the lives of others through a yoga practice rooted in compassion. She received her 200-hour certification in 2012 from the
                       Kripalu School of Yoga. She has also completed her 85-hour certification in Prenatal and Postnatal yoga. Jessica's classes provide a heightened focus on alignment within a flow-based practice. Honoring the Kripalu tradition, compassionate self-awareness is encouraged and practiced through unique pose sequencing. Students are guided to listen to the needs of their bodies in the present and modifications for poses are given. Props are encouraged! Supporting students through mindful movement is the goal of each class.</p>
                   </div>
                   
@@ -772,9 +772,9 @@ function App() {
 
 
                           <div className="container section-title" data-aos="fade-up">
-                              <span className="description-title">Contact</span>
-                              <h2>Contact</h2>
-                              <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                              <span className="description-title">Contact Info</span>
+                              <h2>Contact Info</h2>
+                              {/* <p>Please reach out with any comments or concerns you may have or you can donate if you'd like, Thanks!</p> */}
                           </div>
 
 
@@ -794,8 +794,8 @@ function App() {
                                   <div className="col-lg-4">
                                       <div className="info-item d-flex flex-column justify-content-center align-items-center info-item-borders">
                                           <i className="bi bi-telephone"></i>
-                                          <h3>Call Us</h3>
-                                          <p>+1 5589 55488 55</p>
+                                          <h3><a href="https://app.thefield.org/profile/Jessica-DiMauro-Marks---DiMauro-Dance/550794" target="_blank">DONATE HERE</a></h3>
+                                          <p>THANK YOU FOR YOUR SUPPORT!</p>
                                       </div>
                                   </div>
 
@@ -862,14 +862,14 @@ function App() {
                   </div>
                   <div className="container">
                       <div className="copyright">
-                          <span>Copyright</span> <strong className="px-1 sitename">Jessie</strong> <span>All Rights Reserved</span>
+                          <span>Copyright</span> <strong className="px-1 sitename">Jessica DiMauro Marks</strong> <span>All Rights Reserved</span>
                       </div>
                       <div className="credits">
 
 
 
 
-                          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                      This program has been made possible in part through the sponsorship of <a href="https://www.thefield.org/" target="_blank"> The Field</a>.
                       </div>
                   </div>
               </div>
