@@ -40,10 +40,10 @@ function App() {
                   </nav>
 
                   <div className="header-social-links">
-                      <a href="#" className="twitter"><i className="bi bi-twitter-x"></i></a>
-                      <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
-                      <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
-                      <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
+                      {/* <a href="#" className="twitter"><i className="bi bi-twitter-x"></i></a> */}
+                      <a href="https://www.facebook.com/dimaurodancecompany/" target="_blank" className="facebook"><i className="bi bi-facebook"></i></a>
+                      <a href="https://www.instagram.com/dimaurodance/?hl=en" target="_blank" classname="instagram"><i className="bi bi-instagram"></i></a>
+                      {/* <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a> */}
                   </div>
 
               </div>
@@ -57,7 +57,7 @@ function App() {
 
                   <div className="container text-center" data-aos="fade-up" data-aos-delay="100">
                       <h2>JESSICA DiMAURO MARKS</h2>
-                      <p>DANCER / CHOREOGRAPHY / YOGA / EDUCATOR / AWESOME WIFE</p>
+                      <p>DANCER / CHOREOGRAPHER / YOGA INSTRUCTOR / EDUCATOR</p>
                       <a href="#about" className="btn-scroll" title="Scroll Down"><i className="bi bi-chevron-down"></i></a>
                   </div>
 
@@ -66,20 +66,20 @@ function App() {
               <section id="about" className="about section">
 
                   <div className="container section-title" data-aos="fade-up">
-                      <span className="description-title">DiMAURO DANCE</span>
-                      <h2>DiMAURO DANCE</h2>
-                      <p>
-Jessica DiMauro Marks, a New York native, is a modern dance choreographer invested in creating work that is rich in physicality and deeply communicative. Ms. DiMauro Marks holds an MFA in Choreography from Jacksonville University and a BFA in Dance from Marymount Manhattan College. She has taught and choreographed works extensively for both pre-professional and professional dance companies in the greater NY area, as well as in New Jersey, Connecticut and Florida. Ms. DiMauro’s company, DiMauro Dance, has been selected to perform at numerous curated festivals including Dance Conversations at The Flea, WHITE WAVE's WAVE RISING Series, COOL NY and DUMBO Dance Festivals, The T: Dance, Watch, Reflect, Greenspace Blooms, The HATCH presenting series, CT Meets NY, Queens Arts Express and New Dance Downtown. Ms. DiMauro Marks was awarded an Arts Alive Artist Grant from ArtsWestchester for her work entitled com-mu-ni-ty. DiMauro Dance frequently performs as Guest Artists including the 2009 Annual Benefit for The Steffi Nossen Dance Foundation where Jessica currently has the pleasure of acting as Artistic Director and Producer, as well as being commissioned for works in 2014 and 2004. In addition, Ms. DiMauro Marks self-produced METROPOLIS at Manhattan Movement & Arts Center in March 2015, Unraveled at the Merce Cunningham Studio in 2011 and Confetti: A Collection of Works by Jessica DiMauro at The Producers’ Club Theaters in 2003. Her choreography was also seen at the 2004 International NYC Fringe Festival in Granola! The Musical at The Michael Schimmel Center for the Arts. In the Fall of 2021, Jessica will set her seventeenth work on the BFA Dance students at Montclair State University where she is on faculty as a professor of Modern Technique. She will also act as Rehearsal Director for Stacey Tookey’s new work for the MSU dancers. She has also acted as the Rehearsal Director for Mark Morris’s Polka, Martha Graham’s Panorama, and Bill T. Jones’ work Spent Days Out Yonder. During the 2012-13 academic year she served as Rehearsal Director for the staging of Martha Graham’s Daughters of the Night; the Chorus from Night Journey, which was performed at the Joyce Theater in February 2013. In the Fall of 2015, Jessica’s work was performed by the BA candidates at Marymount Manhattan College.  In the summer of 2013, Ms. DiMauro Marks was proud to be among the first few students to be certified in May O’Donnell Technique. Ms. DiMauro Marks is a Certified Kripalu Yoga Teacher, ACE-Certified Personal Trainer and Group Fitness Instructor.</p>
+                      <span className="description-title">BIO</span>
+                      <h2>BIO</h2>
+                      <p><b>Jessica DiMauro Marks</b>, a New York native, is a modern dance choreographer invested in creating work that is rich in physicality and deeply communicative. Ms. DiMauro Marks holds an MFA in Choreography from Jacksonville University and a BFA in Dance from Marymount Manhattan College. She has taught and choreographed works extensively for both pre-professional and professional dance companies throughout the US. Ms. DiMauro’s company, DiMauro Dance, has been selected to perform at numerous curated festivals including Dance Conversations at The Flea, WHITE WAVE's WAVE RISING Series, COOL NY and DUMBO Dance Festivals, The T: Dance, Watch, Reflect, Greenspace Blooms, The HATCH presenting series, CT Meets NY, Queens Arts Express and New Dance Downtown. Ms. DiMauro Marks has self-produced many seasons for her Company, including I'm not done yet. at St. Mark's Church-in-the-Bowery (2018), METROPOLIS at Manhattan Movement & Arts Center (2015), Unraveled at the Merce Cunningham Studio (2011) and Confetti: A Collection of Works by Jessica DiMauro at The Producers’ Club Theaters (2003). Ms. DiMauro Marks was awarded an Arts Alive Artist Grant from ArtsWestchester for her evening length work entitled com-mu-ni-ty. Her choreography was also seen at the 2004 International NYC Fringe Festival in Granola! The Musical at The Michael Schimmel Center for the Arts. Jessica has been teaching Modern Technique and choreographing at Montclair State University for eighteen years. In the fall of 2024, she set her nineteenth work on the students of the Dance Department at MSU. She is on faculty at Marymount Manhattan College, and also acts as Artistic Director for the Steffi Nossen School of Dance, a modern dance organization active for over 87 years in White Plains, NY. She is a frequent guest artist for workshops and intensives throughout the tri-state area including the Martha Graham School and Earl Mosley’s Institute of the Arts. In 2013, Ms. DiMauro Marks was proud to be among the first few students to be certified in May O’Donnell Technique. Jessica is a Certified Kripalu Yoga Teacher, personal trainer and group fitness instructor.</p>
+
                   </div>
 
                   <div className="container" data-aos="fade-up" data-aos-delay="100">
 
                       <div className="row gy-4 justify-content-center">
                           <div className="col-lg-4">
-                              <img src="assets/img/profile-img.jpg" className="img-fluid" alt=""/>
+                              <img src="assets/img/IMG_8820 copy.jpg" className="img-fluid" alt=""/>
                           </div>
                           <div className="col-lg-8 content">
-                              <h2><b>THE COMPANY</b></h2>
+                              <h2><b>DiMAURO DANCE</b></h2>
                               <p className="fst-italic py-3">
                                  
 <b>Technique is the skeleton of our work. Human emotions are the muscles that move our creative process. </b> As a choreographer deeply invested in the artistic exploration of the human experience, Jessica DiMauro has always been intrigued by the challenge of developing literal gesture into abstract movement while keeping the emotional integrity. In the company's work, the body is used as a vessel to express the rich layers of human emotion. DiMauro is constantly fascinated by the body’s ability to express subtlety and grace, and conversely show aggression and struggle. Her choreography tells a story or sheds light on a particular subject, while giving the performer the opportunity to viscerally experience the emotional intention through movement. She composes movement that is structurally athletic and emotionally driven. Through performances that utilize community participation as a foundation, the company has made it a goal to bring the public into the world of concert dance; specifically the infrequent dance spectator who is intimidated, frustrated or confused by the opacity of modern dance. As an artist, DiMauro wants to create work that entertains with depth. Personal stories and emotional journeys are revealed through movement that is accessible and experienced by the people who watch it.​
@@ -88,18 +88,20 @@ Jessica DiMauro Marks, a New York native, is a modern dance choreographer invest
                               <div className="row">
                                   <div className="col-lg-6">
                                       <ul>
-                                          <li><i className="bi bi-chevron-right"></i> <strong>CURRENT PRODUCTION:</strong> <span>
-                                            <p> <a href="https://www.danceentropy.org/new-events/2024/9/12/underground-at-adgs-bare-bones-showcase" target="_blank">ADG's Bare Bones Series</a>
-                                                <p>SUNDAY, NOVEMBER 17TH, 2024 4:00 PM</p>
-                                                <p>THE Ailey Studios</p>
-                                                <p>455 West 55th Street, NYC</p></p>
-                                                <p>MORE INFO to come!</p> </span></li>
-                                          <li><i className="bi bi-chevron-right"></i> <strong>COMPANY MEMBERS:</strong> <span>
+                                      <li><i className="bi bi-chevron-right"></i> <strong>COMPANY MEMBERS:</strong> <span>
                                             <p>DAVON CHANCE</p>
                                             <p>NAJEE STEPHENSON</p>
                                             <p>CRYSTAL RODRIGUEZ</p>
                                             <p>ALEXANDRA WILLIAMSON</p>
                                             <p>FRANCESCA ZERBO</p></span></li>
+                                          
+                                        <li><i className="bi bi-chevron-right"></i> <strong>CURRENT PRODUCTION:</strong> <span>
+                                        <p><a href="https://www.danceentropy.org/new-events/2024/9/12/underground-at-adgs-bare-bones-showcase" target="_blank">ADG's Bare Bones Series </a></p> 
+                                        <p>SUNDAY, NOVEMBER 17TH, 2024 4:00 PM</p>
+                                        <p>THE Ailey Studios</p>
+                                        <p>455 West 55th Street, NYC</p>
+                                        </span></li>
+                                       
                                       </ul>
                                   </div>
                               </div>
@@ -116,9 +118,9 @@ Jessica DiMauro Marks, a New York native, is a modern dance choreographer invest
 
                   
                   <div className="container section-title" data-aos="fade-up">
-                      <span className="description-title">MY RESUME</span>
-                      <h2>MY RESUME</h2>
-                      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                      <span className="description-title">CHOREOGRAPHY</span>
+                      <h2>CHOREOGRAPHY</h2>
+                      <p>This is where we can attach a CV maybe or add a list of recent performances or accolades</p>
                   </div>
                   
 
@@ -254,28 +256,28 @@ Jessica DiMauro Marks, a New York native, is a modern dance choreographer invest
               
 
 
-              <section id="testimonials" className="testimonials section dark-background">
+               {/* <section id="testimonials" className="testimonials section dark-background">
 
                   <img src="assets/img/testimonials-bg.jpg" className="testimonials-bg" alt=""/>
 
                   <div className="container" data-aos="fade-up" data-aos-delay="100">
 
-                      <div className="swiper init-swiper">
-                          {/*<script type="application/json" className="swiper-config">
+                      {/* <div className="swiper init-swiper"> 
+                          <script type="application/json" className="swiper-config">
                               {
                                   "loop": true,
                                   "speed": 600,
                                   "autoplay": {
                                   "delay": 5000
-                              },
+                              {'}'},
                                   "slidesPerView": "auto",
                                   "pagination": {
                                   "el": ".swiper-pagination",
                                   "type": "bullets",
                                   "clickable": true
-                              }
-                              }
-                          </script>*/}
+                              {'}'}
+                              {'}'}
+                          </script>
                           <div className="swiper-wrapper">
 
                               <div className="swiper-slide">
@@ -293,7 +295,7 @@ Jessica DiMauro Marks, a New York native, is a modern dance choreographer invest
                                           <i className="bi bi-quote quote-icon-right"></i>
                                       </p>
                                   </div>
-                              </div>
+                              </div> 
 
 
                               <div className="swiper-slide">
@@ -374,491 +376,475 @@ Jessica DiMauro Marks, a New York native, is a modern dance choreographer invest
 
                   </div>
 
-              </section>
+              </section> */}
 
 
 
-              <section id="portfolio" className="portfolio section">
+              <><section id="portfolio" className="portfolio section">
 
 
-                  <div className="container section-title" data-aos="fade-up">
-                      <span className="description-title">Portfolio</span>
-                      <h2>Portfolio</h2>
-                      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-                  </div>
+                      <div className="container section-title" data-aos="fade-up">
+                          <span className="description-title">Portfolio</span>
+                          <h2>Portfolio</h2>
+                          <p>A curated selection of Images pertaining to certain topics</p>
+                      </div>
 
 
-                  <div className="container-fluid">
+                      <div className="container-fluid">
 
-                      <div className="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+                          <div className="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-                          <ul className="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                              <li data-filter="*" className="filter-active">All</li>
-                              <li data-filter=".filter-app">App</li>
-                              <li data-filter=".filter-product">Product</li>
-                              <li data-filter=".filter-branding">Branding</li>
-                              <li data-filter=".filter-books">Books</li>
-                          </ul>
+                              <ul className="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                                  <li data-filter="*" className="filter-active">ALL</li>
+                                  <li data-filter=".filter-app">DiMAURO DANCE</li>
+                                  <li data-filter=".filter-product">TEACHING</li>
+                                  <li data-filter=".filter-branding">YOGA</li>
+                                  <li data-filter=".filter-books">HEADSHOTS</li>
+                              </ul>
 
 
-                          <div className="row g-0 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                              <div className="row g-0 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-                              <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                                  <div className="portfolio-content h-100">
-                                      <img src="assets/img/portfolio/app-1.jpg" className="img-fluid" alt=""/>
-                                      <div className="portfolio-info">
-                                          <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                          <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio/app-1.jpg" className="img-fluid" alt="" />
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
                                       </div>
                                   </div>
-                              </div>
 
 
-                              <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                                  <div className="portfolio-content h-100">
-                                      <img src="assets/img/portfolio/product-1.jpg" className="img-fluid" alt=""/>
-                                      <div className="portfolio-info">
-                                          <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-product" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                          <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio/product-1.jpg" className="img-fluid" alt="" />
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-product" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
                                       </div>
                                   </div>
-                              </div>
 
 
-                              <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                                  <div className="portfolio-content h-100">
-                                      <img src="assets/img/portfolio/branding-1.jpg" className="img-fluid" alt=""/>
-                                      <div className="portfolio-info">
-                                          <a href="assets/img/portfolio/branding-1.jpg" data-gallery="portfolio-gallery-branding" className="glightbox preview-link"><i
-                                              className="bi bi-zoom-in"></i></a>
-                                          <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio/branding-1.jpg" className="img-fluid" alt="" />
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio/branding-1.jpg" data-gallery="portfolio-gallery-branding" className="glightbox preview-link"><i
+                                                  className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
                                       </div>
                                   </div>
-                              </div>
 
 
-                              <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-                                  <div className="portfolio-content h-100">
-                                      <img src="assets/img/portfolio/books-1.jpg" className="img-fluid" alt=""/>
-                                      <div className="portfolio-info">
-                                          <a href="assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                          <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio/books-1.jpg" className="img-fluid" alt="" />
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
                                       </div>
                                   </div>
-                              </div>
 
 
-                              <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                                  <div className="portfolio-content h-100">
-                                      <img src="assets/img/portfolio/app-2.jpg" className="img-fluid" alt=""/>
-                                      <div className="portfolio-info">
-                                          <a href="assets/img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                          <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio/app-2.jpg" className="img-fluid" alt="" />
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
                                       </div>
                                   </div>
-                              </div>
 
 
-                              <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                                  <div className="portfolio-content h-100">
-                                      <img src="assets/img/portfolio/product-2.jpg" className="img-fluid" alt=""/>
-                                      <div className="portfolio-info">
-                                          <a href="assets/img/portfolio/product-2.jpg" data-gallery="portfolio-gallery-product" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                          <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio/product-2.jpg" className="img-fluid" alt="" />
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio/product-2.jpg" data-gallery="portfolio-gallery-product" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
                                       </div>
                                   </div>
-                              </div>
 
 
-                              <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                                  <div className="portfolio-content h-100">
-                                      <img src="assets/img/portfolio/branding-2.jpg" className="img-fluid" alt=""/>
-                                      <div className="portfolio-info">
-                                          <a href="assets/img/portfolio/branding-2.jpg" data-gallery="portfolio-gallery-branding" className="glightbox preview-link"><i
-                                              className="bi bi-zoom-in"></i></a>
-                                          <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio/branding-2.jpg" className="img-fluid" alt="" />
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio/branding-2.jpg" data-gallery="portfolio-gallery-branding" className="glightbox preview-link"><i
+                                                  className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
                                       </div>
                                   </div>
-                              </div>
 
 
-                              <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-                                  <div className="portfolio-content h-100">
-                                      <img src="assets/img/portfolio/books-2.jpg" className="img-fluid" alt=""/>
-                                      <div className="portfolio-info">
-                                          <a href="assets/img/portfolio/books-2.jpg" data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                          <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio/books-2.jpg" className="img-fluid" alt="" />
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio/books-2.jpg" data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
                                       </div>
                                   </div>
-                              </div>
 
 
-                              <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                                  <div className="portfolio-content h-100">
-                                      <img src="assets/img/portfolio/app-3.jpg" className="img-fluid" alt=""/>
-                                      <div className="portfolio-info">
-                                          <a href="assets/img/portfolio/app-3.jpg" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                          <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio/app-3.jpg" className="img-fluid" alt="" />
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio/app-3.jpg" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
                                       </div>
                                   </div>
-                              </div>
 
 
-                              <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                                  <div className="portfolio-content h-100">
-                                      <img src="assets/img/portfolio/product-3.jpg" className="img-fluid" alt=""/>
-                                      <div className="portfolio-info">
-                                          <a href="assets/img/portfolio/product-3.jpg" data-gallery="portfolio-gallery-product" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                          <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio/product-3.jpg" className="img-fluid" alt="" />
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio/product-3.jpg" data-gallery="portfolio-gallery-product" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
                                       </div>
                                   </div>
-                              </div>
 
 
-                              <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                                  <div className="portfolio-content h-100">
-                                      <img src="assets/img/portfolio/branding-3.jpg" className="img-fluid" alt=""/>
-                                      <div className="portfolio-info">
-                                          <a href="assets/img/portfolio/branding-3.jpg" data-gallery="portfolio-gallery-branding" className="glightbox preview-link"><i
-                                              className="bi bi-zoom-in"></i></a>
-                                          <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio/branding-3.jpg" className="img-fluid" alt="" />
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio/branding-3.jpg" data-gallery="portfolio-gallery-branding" className="glightbox preview-link"><i
+                                                  className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
                                       </div>
                                   </div>
-                              </div>
 
 
-                              <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-                                  <div className="portfolio-content h-100">
-                                      <img src="assets/img/portfolio/books-3.jpg" className="img-fluid" alt=""/>
-                                      <div className="portfolio-info">
-                                          <a href="assets/img/portfolio/books-3.jpg" data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                          <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio/books-3.jpg" className="img-fluid" alt="" />
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio/books-3.jpg" data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
                                       </div>
                                   </div>
+
+
                               </div>
 
 
                           </div>
-
 
                       </div>
 
-                  </div>
-
-              </section>
+                  </section><section id="pricing" className="pricing section">
 
 
-
-              <section id="pricing" className="pricing section">
-
-
-                  <div className="container section-title" data-aos="fade-up">
-                      <span className="description-title">Pricing</span>
-                      <h2>Pricing</h2>
-                      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-                  </div>
+                          <div className="container section-title" data-aos="fade-up">
+                              <span className="description-title">Pricing</span>
+                              <h2>Pricing</h2>
+                              <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                          </div>
 
 
-                  <div className="container">
+                          <div className="container">
 
-                      <div className="row gy-4">
+                              <div className="row gy-4">
 
-                          <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                              <div className="pricing-item">
-                                  <h3>Free</h3>
-                                  <h4><sup>$</sup>0<span> / month</span></h4>
-                                  <ul>
-                                      <li>Aida dere</li>
-                                      <li>Nec feugiat nisl</li>
-                                      <li>Nulla at volutpat dola</li>
-                                      <li className="na">Pharetra massa</li>
-                                      <li className="na">Massa ultricies mi</li>
-                                  </ul>
-                                  <div className="btn-wrap">
-                                      <a href="#" className="btn-buy">Buy Now</a>
+                                  <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                                      <div className="pricing-item">
+                                          <h3>Free</h3>
+                                          <h4><sup>$</sup>0<span> / month</span></h4>
+                                          <ul>
+                                              <li>Aida dere</li>
+                                              <li>Nec feugiat nisl</li>
+                                              <li>Nulla at volutpat dola</li>
+                                              <li className="na">Pharetra massa</li>
+                                              <li className="na">Massa ultricies mi</li>
+                                          </ul>
+                                          <div className="btn-wrap">
+                                              <a href="#" className="btn-buy">Buy Now</a>
+                                          </div>
+                                      </div>
                                   </div>
-                              </div>
-                          </div>
 
 
-                          <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                              <div className="pricing-item recommended">
-                                  <span className="recommended-badge">Recommended</span>
-                                  <h3>Business</h3>
-                                  <h4><sup>$</sup>19<span> / month</span></h4>
-                                  <ul>
-                                      <li>Aida dere</li>
-                                      <li>Nec feugiat nisl</li>
-                                      <li>Nulla at volutpat dola</li>
-                                      <li>Pharetra massa</li>
-                                      <li className="na">Massa ultricies mi</li>
-                                  </ul>
-                                  <div className="btn-wrap">
-                                      <a href="#" className="btn-buy">Buy Now</a>
+                                  <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                                      <div className="pricing-item recommended">
+                                          <span className="recommended-badge">Recommended</span>
+                                          <h3>Business</h3>
+                                          <h4><sup>$</sup>19<span> / month</span></h4>
+                                          <ul>
+                                              <li>Aida dere</li>
+                                              <li>Nec feugiat nisl</li>
+                                              <li>Nulla at volutpat dola</li>
+                                              <li>Pharetra massa</li>
+                                              <li className="na">Massa ultricies mi</li>
+                                          </ul>
+                                          <div className="btn-wrap">
+                                              <a href="#" className="btn-buy">Buy Now</a>
+                                          </div>
+                                      </div>
                                   </div>
-                              </div>
-                          </div>
 
 
-                          <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                              <div className="pricing-item">
-                                  <h3>Developer</h3>
-                                  <h4><sup>$</sup>29<span> / month</span></h4>
-                                  <ul>
-                                      <li>Aida dere</li>
-                                      <li>Nec feugiat nisl</li>
-                                      <li>Nulla at volutpat dola</li>
-                                      <li>Pharetra massa</li>
-                                      <li>Massa ultricies mi</li>
-                                  </ul>
-                                  <div className="btn-wrap">
-                                      <a href="#" className="btn-buy">Buy Now</a>
+                                  <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                                      <div className="pricing-item">
+                                          <h3>Developer</h3>
+                                          <h4><sup>$</sup>29<span> / month</span></h4>
+                                          <ul>
+                                              <li>Aida dere</li>
+                                              <li>Nec feugiat nisl</li>
+                                              <li>Nulla at volutpat dola</li>
+                                              <li>Pharetra massa</li>
+                                              <li>Massa ultricies mi</li>
+                                          </ul>
+                                          <div className="btn-wrap">
+                                              <a href="#" className="btn-buy">Buy Now</a>
+                                          </div>
+                                      </div>
                                   </div>
-                              </div>
-                          </div>
 
 
-                      </div>
-
-                  </div>
-
-              </section>
-
-
-
-              <section id="pricing-2" className="pricing-2 section">
-
-                  <div className="container" data-aos="fade-up" data-aos-delay="100">
-
-                      <div className="row gy-4 gx-lg-5">
-
-                          <div className="col-lg-6">
-                              <div className="pricing-item d-flex justify-content-between">
-                                  <h3>Portrait Photography</h3>
-                                  <h4>$160.00</h4>
-                              </div>
-                          </div>
-
-
-                          <div className="col-lg-6">
-                              <div className="pricing-item d-flex justify-content-between">
-                                  <h3>Fashion Photography</h3>
-                                  <h4>$300.00</h4>
-                              </div>
-                          </div>
-
-
-                          <div className="col-lg-6">
-                              <div className="pricing-item d-flex justify-content-between">
-                                  <h3>Sports Photography</h3>
-                                  <h4>$200.00</h4>
-                              </div>
-                          </div>
-
-
-                          <div className="col-lg-6">
-                              <div className="pricing-item d-flex justify-content-between">
-                                  <h3>Still Life Photography</h3>
-                                  <h4>$120.00</h4>
-                              </div>
-                          </div>
-
-
-                          <div className="col-lg-6">
-                              <div className="pricing-item d-flex justify-content-between">
-                                  <h3>Wedding Photography</h3>
-                                  <h4>$500.00</h4>
-                              </div>
-                          </div>
-
-
-                          <div className="col-lg-6">
-                              <div className="pricing-item d-flex justify-content-between">
-                                  <h3>Photojournalism</h3>
-                                  <h4>$200.00</h4>
-                              </div>
-                          </div>
-
-
-                      </div>
-
-                  </div>
-
-              </section>
-
-
-
-              <section id="gallery" className="gallery section">
-
-
-                  <div className="container section-title" data-aos="fade-up">
-                      <span className="description-title">Gallery</span>
-                      <h2>Gallery</h2>
-                      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-                  </div>
-
-
-                  <div className="container-fluid" data-aos="fade-up" data-aos-delay="100">
-
-                      <div className="row g-0">
-
-                          <div className="col-lg-3 col-md-4">
-                              <div className="gallery-item">
-                                  <a href="assets/img/gallery/gallery-1.jpg" className="glightbox" data-gallery="images-gallery">
-                                      <img src="assets/img/gallery/gallery-1.jpg" alt="" className="img-fluid"/>
-                                  </a>
-                              </div>
-                          </div>
-
-
-                          <div className="col-lg-3 col-md-4">
-                              <div className="gallery-item">
-                                  <a href="assets/img/gallery/gallery-2.jpg" className="glightbox" data-gallery="images-gallery">
-                                      <img src="assets/img/gallery/gallery-2.jpg" alt="" className="img-fluid"/>
-                                  </a>
-                              </div>
-                          </div>
-
-
-                          <div className="col-lg-3 col-md-4">
-                              <div className="gallery-item">
-                                  <a href="assets/img/gallery/gallery-3.jpg" className="glightbox" data-gallery="images-gallery">
-                                      <img src="assets/img/gallery/gallery-3.jpg" alt="" className="img-fluid"/>
-                                  </a>
-                              </div>
-                          </div>
-
-
-                          <div className="col-lg-3 col-md-4">
-                              <div className="gallery-item">
-                                  <a href="assets/img/gallery/gallery-4.jpg" className="glightbox" data-gallery="images-gallery">
-                                      <img src="assets/img/gallery/gallery-4.jpg" alt="" className="img-fluid"/>
-                                  </a>
-                              </div>
-                          </div>
-
-
-                          <div className="col-lg-3 col-md-4">
-                              <div className="gallery-item">
-                                  <a href="assets/img/gallery/gallery-5.jpg" className="glightbox" data-gallery="images-gallery">
-                                      <img src="assets/img/gallery/gallery-5.jpg" alt="" className="img-fluid"/>
-                                  </a>
-                              </div>
-                          </div>
-
-
-                          <div className="col-lg-3 col-md-4">
-                              <div className="gallery-item">
-                                  <a href="assets/img/gallery/gallery-6.jpg" className="glightbox" data-gallery="images-gallery">
-                                      <img src="assets/img/gallery/gallery-6.jpg" alt="" className="img-fluid"/>
-                                  </a>
-                              </div>
-                          </div>
-
-
-                          <div className="col-lg-3 col-md-4">
-                              <div className="gallery-item">
-                                  <a href="assets/img/gallery/gallery-7.jpg" className="glightbox" data-gallery="images-gallery">
-                                      <img src="assets/img/gallery/gallery-7.jpg" alt="" className="img-fluid"/>
-                                  </a>
-                              </div>
-                          </div>
-
-
-                          <div className="col-lg-3 col-md-4">
-                              <div className="gallery-item">
-                                  <a href="assets/img/gallery/gallery-8.jpg" className="glightbox" data-gallery="images-gallery">
-                                      <img src="assets/img/gallery/gallery-8.jpg" alt="" className="img-fluid"/>
-                                  </a>
-                              </div>
-                          </div>
-
-
-                      </div>
-
-                  </div>
-
-              </section>
-
-
-
-              <section id="contact" className="contact section">
-
-
-                  <div className="container section-title" data-aos="fade-up">
-                      <span className="description-title">Contact</span>
-                      <h2>Contact</h2>
-                      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-                  </div>
-
-
-                  <div className="container" data-aos="fade-up" data-aos-delay="100">
-
-                      <div className="row gy-4" data-aos="fade-up" data-aos-delay="200">
-
-                          <div className="col-lg-4">
-                              <div className="info-item d-flex flex-column justify-content-center align-items-center">
-                                  <i className="bi bi-geo-alt"></i>
-                                  <h3>Address</h3>
-                                  <p>A108 Adam Street, New York, NY 535022</p>
-                              </div>
-                          </div>
-
-
-                          <div className="col-lg-4">
-                              <div className="info-item d-flex flex-column justify-content-center align-items-center info-item-borders">
-                                  <i className="bi bi-telephone"></i>
-                                  <h3>Call Us</h3>
-                                  <p>+1 5589 55488 55</p>
-                              </div>
-                          </div>
-
-
-                          <div className="col-lg-4">
-                              <div className="info-item d-flex flex-column justify-content-center align-items-center">
-                                  <i className="bi bi-envelope"></i>
-                                  <h3>Email Us</h3>
-                                  <p>info@example.com</p>
-                              </div>
-                          </div>
-
-
-                      </div>
-
-                      <form action="forms/contact.php" method="post" className="php-email-form" data-aos="fade-up" data-aos-delay="300">
-                          <div className="row gy-4">
-
-                              <div className="col-md-6">
-                                  <input type="text" name="name" className="form-control" placeholder="Your Name" required=""/>
-                              </div>
-
-                              <div className="col-md-6 ">
-                                  <input type="email" className="form-control" name="email" placeholder="Your Email" required=""/>
-                              </div>
-
-                              <div className="col-md-12">
-                                  <input type="text" className="form-control" name="subject" placeholder="Subject" required=""/>
-                              </div>
-
-                              <div className="col-md-12">
-                                  <textarea className="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                              </div>
-
-                              <div className="col-md-12 text-center">
-                                  <div className="loading">Loading</div>
-                                  <div className="error-message"></div>
-                                  <div className="sent-message">Your message has been sent. Thank you!</div>
-
-                                  <button type="submit">Send Message</button>
                               </div>
 
                           </div>
-                      </form>
+
+                      </section><section id="pricing-2" className="pricing-2 section">
+
+                          <div className="container" data-aos="fade-up" data-aos-delay="100">
+
+                              <div className="row gy-4 gx-lg-5">
+
+                                  <div className="col-lg-6">
+                                      <div className="pricing-item d-flex justify-content-between">
+                                          <h3>Portrait Photography</h3>
+                                          <h4>$160.00</h4>
+                                      </div>
+                                  </div>
 
 
-                  </div>
+                                  <div className="col-lg-6">
+                                      <div className="pricing-item d-flex justify-content-between">
+                                          <h3>Fashion Photography</h3>
+                                          <h4>$300.00</h4>
+                                      </div>
+                                  </div>
 
-              </section>
+
+                                  <div className="col-lg-6">
+                                      <div className="pricing-item d-flex justify-content-between">
+                                          <h3>Sports Photography</h3>
+                                          <h4>$200.00</h4>
+                                      </div>
+                                  </div>
+
+
+                                  <div className="col-lg-6">
+                                      <div className="pricing-item d-flex justify-content-between">
+                                          <h3>Still Life Photography</h3>
+                                          <h4>$120.00</h4>
+                                      </div>
+                                  </div>
+
+
+                                  <div className="col-lg-6">
+                                      <div className="pricing-item d-flex justify-content-between">
+                                          <h3>Wedding Photography</h3>
+                                          <h4>$500.00</h4>
+                                      </div>
+                                  </div>
+
+
+                                  <div className="col-lg-6">
+                                      <div className="pricing-item d-flex justify-content-between">
+                                          <h3>Photojournalism</h3>
+                                          <h4>$200.00</h4>
+                                      </div>
+                                  </div>
+
+
+                              </div>
+
+                          </div>
+
+                      </section><section id="gallery" className="gallery section">
+
+
+                          <div className="container section-title" data-aos="fade-up">
+                              <span className="description-title">Gallery</span>
+                              <h2>Gallery</h2>
+                              <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                          </div>
+
+
+                          <div className="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+                              <div className="row g-0">
+
+                                  <div className="col-lg-3 col-md-4">
+                                      <div className="gallery-item">
+                                          <a href="assets/img/gallery/gallery-1.jpg" className="glightbox" data-gallery="images-gallery">
+                                              <img src="assets/img/gallery/gallery-1.jpg" alt="" className="img-fluid" />
+                                          </a>
+                                      </div>
+                                  </div>
+
+
+                                  <div className="col-lg-3 col-md-4">
+                                      <div className="gallery-item">
+                                          <a href="assets/img/gallery/gallery-2.jpg" className="glightbox" data-gallery="images-gallery">
+                                              <img src="assets/img/gallery/gallery-2.jpg" alt="" className="img-fluid" />
+                                          </a>
+                                      </div>
+                                  </div>
+
+
+                                  <div className="col-lg-3 col-md-4">
+                                      <div className="gallery-item">
+                                          <a href="assets/img/gallery/gallery-3.jpg" className="glightbox" data-gallery="images-gallery">
+                                              <img src="assets/img/gallery/gallery-3.jpg" alt="" className="img-fluid" />
+                                          </a>
+                                      </div>
+                                  </div>
+
+
+                                  <div className="col-lg-3 col-md-4">
+                                      <div className="gallery-item">
+                                          <a href="assets/img/gallery/gallery-4.jpg" className="glightbox" data-gallery="images-gallery">
+                                              <img src="assets/img/gallery/gallery-4.jpg" alt="" className="img-fluid" />
+                                          </a>
+                                      </div>
+                                  </div>
+
+
+                                  <div className="col-lg-3 col-md-4">
+                                      <div className="gallery-item">
+                                          <a href="assets/img/gallery/gallery-5.jpg" className="glightbox" data-gallery="images-gallery">
+                                              <img src="assets/img/gallery/gallery-5.jpg" alt="" className="img-fluid" />
+                                          </a>
+                                      </div>
+                                  </div>
+
+
+                                  <div className="col-lg-3 col-md-4">
+                                      <div className="gallery-item">
+                                          <a href="assets/img/gallery/gallery-6.jpg" className="glightbox" data-gallery="images-gallery">
+                                              <img src="assets/img/gallery/gallery-6.jpg" alt="" className="img-fluid" />
+                                          </a>
+                                      </div>
+                                  </div>
+
+
+                                  <div className="col-lg-3 col-md-4">
+                                      <div className="gallery-item">
+                                          <a href="assets/img/gallery/gallery-7.jpg" className="glightbox" data-gallery="images-gallery">
+                                              <img src="assets/img/gallery/gallery-7.jpg" alt="" className="img-fluid" />
+                                          </a>
+                                      </div>
+                                  </div>
+
+
+                                  <div className="col-lg-3 col-md-4">
+                                      <div className="gallery-item">
+                                          <a href="assets/img/gallery/gallery-8.jpg" className="glightbox" data-gallery="images-gallery">
+                                              <img src="assets/img/gallery/gallery-8.jpg" alt="" className="img-fluid" />
+                                          </a>
+                                      </div>
+                                  </div>
+
+
+                              </div>
+
+                          </div>
+
+                      </section><section id="contact" className="contact section">
+
+
+                          <div className="container section-title" data-aos="fade-up">
+                              <span className="description-title">Contact</span>
+                              <h2>Contact</h2>
+                              <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                          </div>
+
+
+                          <div className="container" data-aos="fade-up" data-aos-delay="100">
+
+                              <div className="row gy-4" data-aos="fade-up" data-aos-delay="200">
+
+                                  <div className="col-lg-4">
+                                      <div className="info-item d-flex flex-column justify-content-center align-items-center">
+                                          <i className="bi bi-geo-alt"></i>
+                                          <h3>Address</h3>
+                                          <p>A108 Adam Street, New York, NY 535022</p>
+                                      </div>
+                                  </div>
+
+
+                                  <div className="col-lg-4">
+                                      <div className="info-item d-flex flex-column justify-content-center align-items-center info-item-borders">
+                                          <i className="bi bi-telephone"></i>
+                                          <h3>Call Us</h3>
+                                          <p>+1 5589 55488 55</p>
+                                      </div>
+                                  </div>
+
+
+                                  <div className="col-lg-4">
+                                      <div className="info-item d-flex flex-column justify-content-center align-items-center">
+                                          <i className="bi bi-envelope"></i>
+                                          <h3>Email Us</h3>
+                                          <p>info@example.com</p>
+                                      </div>
+                                  </div>
+
+
+                              </div>
+
+                              <form action="forms/contact.php" method="post" className="php-email-form" data-aos="fade-up" data-aos-delay="300">
+                                  <div className="row gy-4">
+
+                                      <div className="col-md-6">
+                                          <input type="text" name="name" className="form-control" placeholder="Your Name" required="" />
+                                      </div>
+
+                                      <div className="col-md-6 ">
+                                          <input type="email" className="form-control" name="email" placeholder="Your Email" required="" />
+                                      </div>
+
+                                      <div className="col-md-12">
+                                          <input type="text" className="form-control" name="subject" placeholder="Subject" required="" />
+                                      </div>
+
+                                      <div className="col-md-12">
+                                          <textarea className="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                                      </div>
+
+                                      <div className="col-md-12 text-center">
+                                          <div className="loading">Loading</div>
+                                          <div className="error-message"></div>
+                                          <div className="sent-message">Your message has been sent. Thank you!</div>
+
+                                          <button type="submit">Send Message</button>
+                                      </div>
+
+                                  </div>
+                              </form>
+
+
+                          </div>
+
+                      </section></>
 
 
           </main>
@@ -868,11 +854,11 @@ Jessica DiMauro Marks, a New York native, is a modern dance choreographer invest
                   <h3 className="sitename">Jessie<br/></h3>
                   <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
                   <div className="social-links d-flex justify-content-center">
-                      <a href=""><i className="bi bi-twitter-x"></i></a>
+                      {/* <a href=""><i className="bi bi-twitter-x"></i></a> */}
                       <a href=""><i className="bi bi-facebook"></i></a>
                       <a href=""><i className="bi bi-instagram"></i></a>
-                      <a href=""><i className="bi bi-skype"></i></a>
-                      <a href=""><i className="bi bi-linkedin"></i></a>
+                      {/* <a href=""><i className="bi bi-skype"></i></a> */}
+                      {/* <a href=""><i className="bi bi-linkedin"></i></a> */}
                   </div>
                   <div className="container">
                       <div className="copyright">
