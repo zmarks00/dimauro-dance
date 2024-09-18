@@ -53,7 +53,7 @@ function App() {
 
               <section id="hero" className="hero section dark-background">
 
-                  <img src="assets/img/jessie2.webp" alt="" data-aos="fade-in"/>
+                  <img src="assets/img/1113.JPG" alt="" data-aos="fade-in"/>
 
                   <div className="container text-center" data-aos="fade-up" data-aos-delay="100">
                       <h2>JESSICA DiMAURO MARKS</h2>
@@ -82,11 +82,7 @@ Jessica DiMauro Marks, a New York native, is a modern dance choreographer invest
                               <h2><b>THE COMPANY</b></h2>
                               <p className="fst-italic py-3">
                                  
-<b>Technique is the skeleton of our work. Human emotions are the muscles that move our creative process. </b>
-
- 
-
-As a choreographer deeply invested in the artistic exploration of the human experience, Jessica DiMauro has always been intrigued by the challenge of developing literal gesture into abstract movement while keeping the emotional integrity. In the company's work, the body is used as a vessel to express the rich layers of human emotion. DiMauro is constantly fascinated by the body’s ability to express subtlety and grace, and conversely show aggression and struggle. Her choreography tells a story or sheds light on a particular subject, while giving the performer the opportunity to viscerally experience the emotional intention through movement. She composes movement that is structurally athletic and emotionally driven. Through performances that utilize community participation as a foundation, the company has made it a goal to bring the public into the world of concert dance; specifically the infrequent dance spectator who is intimidated, frustrated or confused by the opacity of modern dance. As an artist, DiMauro wants to create work that entertains with depth. Personal stories and emotional journeys are revealed through movement that is accessible and experienced by the people who watch it.​
+<b>Technique is the skeleton of our work. Human emotions are the muscles that move our creative process. </b> As a choreographer deeply invested in the artistic exploration of the human experience, Jessica DiMauro has always been intrigued by the challenge of developing literal gesture into abstract movement while keeping the emotional integrity. In the company's work, the body is used as a vessel to express the rich layers of human emotion. DiMauro is constantly fascinated by the body’s ability to express subtlety and grace, and conversely show aggression and struggle. Her choreography tells a story or sheds light on a particular subject, while giving the performer the opportunity to viscerally experience the emotional intention through movement. She composes movement that is structurally athletic and emotionally driven. Through performances that utilize community participation as a foundation, the company has made it a goal to bring the public into the world of concert dance; specifically the infrequent dance spectator who is intimidated, frustrated or confused by the opacity of modern dance. As an artist, DiMauro wants to create work that entertains with depth. Personal stories and emotional journeys are revealed through movement that is accessible and experienced by the people who watch it.​
  
                               </p>
                               <div className="row">
