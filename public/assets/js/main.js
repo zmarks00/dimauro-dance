@@ -195,6 +195,6 @@
       }
       document.addEventListener('scroll', navmenuScrollspy);
       navmenuScrollspy();
-  }, 2000);
+  }, 250);
 
 })();
