@@ -52,7 +52,7 @@ function App() {
 
                       <div className="row gy-4 justify-content-center">
                           <div className="col-lg-4">
-                              <img src="assets/img/IMG_8820 copy.jpg" className="img-fluid" alt=""/>
+                              <img src="assets/img/JessieByTrainFence.jpg" className="img-fluid" alt=""/>
                           </div>
                           <div className="col-lg-8 content">
                               <h2><b>DiMAURO DANCE</b></h2>
