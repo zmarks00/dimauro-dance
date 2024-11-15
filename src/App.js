@@ -12,40 +12,16 @@ function App() {
 
                   <nav id="navmenu" className="navmenu">
                       <ul>
-                          <li><a href="#hero" className="active">Home</a></li>
                           <li><a href="#about">DiMauro Dance</a></li>
                           <li><a href="#resume">Choreography</a></li>
                           <li><a href="#services">Yoga</a></li>
                           <li><a href="#portfolio">Educator</a></li>
-                          <li className="dropdown"><a href="#"><span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
-                              <ul>
-                                  <li><a href="#">Dropdown 1</a></li>
-                                  <li className="dropdown"><a href="#"><span>Deep Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
-                                      <ul>
-                                          <li><a href="#">Deep Dropdown 1</a></li>
-                                          <li><a href="#">Deep Dropdown 2</a></li>
-                                          <li><a href="#">Deep Dropdown 3</a></li>
-                                          <li><a href="#">Deep Dropdown 4</a></li>
-                                          <li><a href="#">Deep Dropdown 5</a></li>
-                                      </ul>
-                                  </li>
-                                  <li><a href="#">Dropdown 2</a></li>
-                                  <li><a href="#">Dropdown 3</a></li>
-                                  <li><a href="#">Dropdown 4</a></li>
-                              </ul>
-                          </li>
                           <li><a href="#contact">Contact</a></li>
+                          <li><a href="https://www.facebook.com/dimaurodancecompany/" target="_blank" className="facebook"><i className="bi bi-facebook"></i></a></li>
+                          <li><a href="https://www.instagram.com/dimaurodance/?hl=en" target="_blank" className="instagram"><i className="bi bi-instagram"></i></a></li>
                       </ul>
                       <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
                   </nav>
-
-                  <div className="header-social-links">
-                      {/* <a href="#" className="twitter"><i className="bi bi-twitter-x"></i></a> */}
-                      <a href="https://www.facebook.com/dimaurodancecompany/" target="_blank" className="facebook"><i className="bi bi-facebook"></i></a>
-                      <a href="https://www.instagram.com/dimaurodance/?hl=en" target="_blank" classname="instagram"><i className="bi bi-instagram"></i></a>
-                      {/* <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a> */}
-                  </div>
-
               </div>
           </header>
 
@@ -391,47 +367,36 @@ function App() {
 
 
                       <div className="container-fluid">
-
                           <div className="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
                               <ul className="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
                                   <li data-filter="*" className="filter-active">ALL</li>
-                                  <li data-filter=".filter-app">DiMAURO DANCE</li>
-                                  <li data-filter=".filter-product">TEACHING</li>
-                                  <li data-filter=".filter-branding">YOGA</li>
-                                  <li data-filter=".filter-books">HEADSHOTS</li>
+                                  <li data-filter=".filter-ddance">DiMAURO DANCE</li>
+                                  <li data-filter=".filter-teaching">TEACHING</li>
+                                  <li data-filter=".filter-yoga">YOGA</li>
+                                  <li data-filter=".filter-headshots">HEADSHOTS</li>
                               </ul>
 
 
                               <div className="row g-0 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-headshots">
                                       <div className="portfolio-content h-100">
-                                          <img src="assets/img/portfolio/app-1.jpg" className="img-fluid" alt="" />
+                                          <img src="assets/img/portfolio_cropped/portfolio17.jpg" className="img-fluid" alt=""/>
                                           <div className="portfolio-info">
-                                              <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
+                                              <a href="assets/img/portfolio_cropped/portfolio17.jpg" data-gallery="portfolio-gallery-headshots" className="glightbox preview-link"><i
+                                                  className="bi bi-zoom-in"></i></a>
                                               <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
                                           </div>
                                       </div>
                                   </div>
 
-
-                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-teaching">
                                       <div className="portfolio-content h-100">
-                                          <img src="assets/img/portfolio/product-1.jpg" className="img-fluid" alt="" />
+                                          <img src="assets/img/portfolio_cropped/portfolio1.jpg" className="img-fluid" alt=""/>
                                           <div className="portfolio-info">
-                                              <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-product" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
-                                          </div>
-                                      </div>
-                                  </div>
-
-
-                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                                      <div className="portfolio-content h-100">
-                                          <img src="assets/img/portfolio/branding-1.jpg" className="img-fluid" alt="" />
-                                          <div className="portfolio-info">
-                                              <a href="assets/img/portfolio/branding-1.jpg" data-gallery="portfolio-gallery-branding" className="glightbox preview-link"><i
+                                              <a href="assets/img/portfolio_cropped/portfolio1.jpg" data-gallery="portfolio-gallery-teaching" className="glightbox preview-link"><i
                                                   className="bi bi-zoom-in"></i></a>
                                               <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
                                           </div>
@@ -439,44 +404,22 @@ function App() {
                                   </div>
 
 
-                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-yoga">
                                       <div className="portfolio-content h-100">
-                                          <img src="assets/img/portfolio/books-1.jpg" className="img-fluid" alt="" />
+                                          <img src="assets/img/portfolio_cropped/portfolio13.jpg" className="img-fluid" alt=""/>
                                           <div className="portfolio-info">
-                                              <a href="assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
+                                              <a href="assets/img/portfolio_cropped/portfolio13.jpg" data-gallery="portfolio-gallery-yoga" className="glightbox preview-link"><i
+                                                  className="bi bi-zoom-in"></i></a>
                                               <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
                                           </div>
                                       </div>
                                   </div>
 
-
-                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-teaching">
                                       <div className="portfolio-content h-100">
-                                          <img src="assets/img/portfolio/app-2.jpg" className="img-fluid" alt="" />
+                                          <img src="assets/img/portfolio_cropped/portfolio2.jpg" className="img-fluid" alt=""/>
                                           <div className="portfolio-info">
-                                              <a href="assets/img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
-                                          </div>
-                                      </div>
-                                  </div>
-
-
-                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                                      <div className="portfolio-content h-100">
-                                          <img src="assets/img/portfolio/product-2.jpg" className="img-fluid" alt="" />
-                                          <div className="portfolio-info">
-                                              <a href="assets/img/portfolio/product-2.jpg" data-gallery="portfolio-gallery-product" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
-                                          </div>
-                                      </div>
-                                  </div>
-
-
-                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                                      <div className="portfolio-content h-100">
-                                          <img src="assets/img/portfolio/branding-2.jpg" className="img-fluid" alt="" />
-                                          <div className="portfolio-info">
-                                              <a href="assets/img/portfolio/branding-2.jpg" data-gallery="portfolio-gallery-branding" className="glightbox preview-link"><i
+                                              <a href="assets/img/portfolio_cropped/portfolio2.jpg" data-gallery="portfolio-gallery-teaching" className="glightbox preview-link"><i
                                                   className="bi bi-zoom-in"></i></a>
                                               <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
                                           </div>
@@ -484,44 +427,11 @@ function App() {
                                   </div>
 
 
-                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ddance">
                                       <div className="portfolio-content h-100">
-                                          <img src="assets/img/portfolio/books-2.jpg" className="img-fluid" alt="" />
+                                          <img src="assets/img/portfolio_cropped/portfolio3.jpg" className="img-fluid" alt=""/>
                                           <div className="portfolio-info">
-                                              <a href="assets/img/portfolio/books-2.jpg" data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
-                                          </div>
-                                      </div>
-                                  </div>
-
-
-                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                                      <div className="portfolio-content h-100">
-                                          <img src="assets/img/portfolio/app-3.jpg" className="img-fluid" alt="" />
-                                          <div className="portfolio-info">
-                                              <a href="assets/img/portfolio/app-3.jpg" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
-                                          </div>
-                                      </div>
-                                  </div>
-
-
-                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                                      <div className="portfolio-content h-100">
-                                          <img src="assets/img/portfolio/product-3.jpg" className="img-fluid" alt="" />
-                                          <div className="portfolio-info">
-                                              <a href="assets/img/portfolio/product-3.jpg" data-gallery="portfolio-gallery-product" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
-                                          </div>
-                                      </div>
-                                  </div>
-
-
-                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                                      <div className="portfolio-content h-100">
-                                          <img src="assets/img/portfolio/branding-3.jpg" className="img-fluid" alt="" />
-                                          <div className="portfolio-info">
-                                              <a href="assets/img/portfolio/branding-3.jpg" data-gallery="portfolio-gallery-branding" className="glightbox preview-link"><i
+                                              <a href="assets/img/portfolio_cropped/portfolio3.jpg" data-gallery="portfolio-gallery-ddance" className="glightbox preview-link"><i
                                                   className="bi bi-zoom-in"></i></a>
                                               <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
                                           </div>
@@ -529,11 +439,162 @@ function App() {
                                   </div>
 
 
-                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ddance">
                                       <div className="portfolio-content h-100">
-                                          <img src="assets/img/portfolio/books-3.jpg" className="img-fluid" alt="" />
+                                          <img src="assets/img/portfolio_cropped/portfolio4.jpg" className="img-fluid" alt=""/>
                                           <div className="portfolio-info">
-                                              <a href="assets/img/portfolio/books-3.jpg" data-gallery="portfolio-gallery-book" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
+                                              <a href="assets/img/portfolio_cropped/portfolio4.jpg" data-gallery="portfolio-gallery-ddance" className="glightbox preview-link"><i
+                                                  className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-headshots">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio_cropped/portfolio15.jpg" className="img-fluid" alt=""/>
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio_cropped/portfolio15.jpg" data-gallery="portfolio-gallery-headshots" className="glightbox preview-link"><i
+                                                  className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-teaching">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio_cropped/portfolio5.jpg" className="img-fluid" alt=""/>
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio_cropped/portfolio5.jpg" data-gallery="portfolio-gallery-teaching" className="glightbox preview-link"><i
+                                                  className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ddance">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio_cropped/portfolio6.jpg" className="img-fluid" alt=""/>
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio_cropped/portfolio6.jpg" data-gallery="portfolio-gallery-ddance" className="glightbox preview-link"><i
+                                                  className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ddance">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio_cropped/portfolio7.jpg" className="img-fluid" alt=""/>
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio_cropped/portfolio7.jpg" data-gallery="portfolio-gallery-ddance" className="glightbox preview-link"><i
+                                                  className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ddance">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio_cropped/portfolio9.jpg" className="img-fluid" alt=""/>
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio_cropped/portfolio9.jpg" data-gallery="portfolio-gallery-ddance" className="glightbox preview-link"><i
+                                                  className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ddance">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio_cropped/portfolio8.jpg" className="img-fluid" alt=""/>
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio_cropped/portfolio8.jpg" data-gallery="portfolio-gallery-ddance" className="glightbox preview-link"><i
+                                                  className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ddance">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio_cropped/portfolio10.jpg" className="img-fluid" alt=""/>
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio_cropped/portfolio10.jpg" data-gallery="portfolio-gallery-ddance" className="glightbox preview-link"><i
+                                                  className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-headshots">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio_cropped/portfolio16.jpg" className="img-fluid" alt=""/>
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio_cropped/portfolio16.jpg" data-gallery="portfolio-gallery-headshots" className="glightbox preview-link"><i
+                                                  className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ddance">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio_cropped/portfolio11.jpg" className="img-fluid" alt=""/>
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio_cropped/portfolio11.jpg" data-gallery="portfolio-gallery-ddance" className="glightbox preview-link"><i
+                                                  className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-headshots">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio_cropped/portfolio12.jpg" className="img-fluid" alt=""/>
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio_cropped/portfolio12.jpg" data-gallery="portfolio-gallery-headshots" className="glightbox preview-link"><i
+                                                  className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ddance">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio_cropped/portfolio14.jpg" className="img-fluid" alt=""/>
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio_cropped/portfolio14.jpg" data-gallery="portfolio-gallery-ddance" className="glightbox preview-link"><i
+                                                  className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+
+
+                                  {/*<div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-headshots">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio_cropped/portfolio18.jpg" className="img-fluid" alt=""/>
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio_cropped/portfolio18.jpg" data-gallery="portfolio-gallery-headshots" className="glightbox preview-link"><i
+                                                  className="bi bi-zoom-in"></i></a>
+                                              <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>*/}
+
+
+                                  <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-headshots">
+                                      <div className="portfolio-content h-100">
+                                          <img src="assets/img/portfolio_cropped/portfolio19.jpg" className="img-fluid" alt=""/>
+                                          <div className="portfolio-info">
+                                              <a href="assets/img/portfolio_cropped/portfolio19.jpg" data-gallery="portfolio-gallery-headshots" className="glightbox preview-link"><i
+                                                  className="bi bi-zoom-in"></i></a>
                                               <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
                                           </div>
                                       </div>
@@ -547,26 +608,27 @@ function App() {
 
                       </div>
 
-                  </section><section id="pricing" className="pricing section">
+              </section>
+                  <section id="pricing" className="pricing section">
 
 
-                          <div className="container section-title" data-aos="fade-up">
-                              <span className="description-title">Pricing</span>
-                              <h2>Pricing</h2>
-                              <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-                          </div>
+                      <div className="container section-title" data-aos="fade-up">
+                          <span className="description-title">Pricing</span>
+                          <h2>Pricing</h2>
+                          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                      </div>
 
 
-                          <div className="container">
+                      <div className="container">
 
-                              <div className="row gy-4">
+                          <div className="row gy-4">
 
-                                  <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                                      <div className="pricing-item">
-                                          <h3>Free</h3>
-                                          <h4><sup>$</sup>0<span> / month</span></h4>
-                                          <ul>
-                                              <li>Aida dere</li>
+                              <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                                  <div className="pricing-item">
+                                      <h3>Free</h3>
+                                      <h4><sup>$</sup>0<span> / month</span></h4>
+                                      <ul>
+                                      <li>Aida dere</li>
                                               <li>Nec feugiat nisl</li>
                                               <li>Nulla at volutpat dola</li>
                                               <li className="na">Pharetra massa</li>
@@ -694,8 +756,8 @@ function App() {
 
                                   <div className="col-lg-3 col-md-4">
                                       <div className="gallery-item">
-                                          <a href="assets/img/gallery/gallery-1.jpg" className="glightbox" data-gallery="images-gallery">
-                                              <img src="assets/img/gallery/gallery-1.jpg" alt="" className="img-fluid" />
+                                          <a href="assets/img/cropped/gallery1.jpg" className="glightbox" data-gallery="images-gallery">
+                                              <img src="assets/img/cropped/gallery1.jpg" alt="" className="img-fluid"/>
                                           </a>
                                       </div>
                                   </div>
@@ -703,8 +765,8 @@ function App() {
 
                                   <div className="col-lg-3 col-md-4">
                                       <div className="gallery-item">
-                                          <a href="assets/img/gallery/gallery-2.jpg" className="glightbox" data-gallery="images-gallery">
-                                              <img src="assets/img/gallery/gallery-2.jpg" alt="" className="img-fluid" />
+                                          <a href="assets/img/cropped/gallery2.jpg" className="glightbox" data-gallery="images-gallery">
+                                              <img src="assets/img/cropped/gallery2.jpg" alt="" className="img-fluid"/>
                                           </a>
                                       </div>
                                   </div>
@@ -712,8 +774,8 @@ function App() {
 
                                   <div className="col-lg-3 col-md-4">
                                       <div className="gallery-item">
-                                          <a href="assets/img/gallery/gallery-3.jpg" className="glightbox" data-gallery="images-gallery">
-                                              <img src="assets/img/gallery/gallery-3.jpg" alt="" className="img-fluid" />
+                                          <a href="assets/img/cropped/gallery3.jpg" className="glightbox" data-gallery="images-gallery">
+                                              <img src="assets/img/cropped/gallery3.jpg" alt="" className="img-fluid"/>
                                           </a>
                                       </div>
                                   </div>
@@ -721,8 +783,8 @@ function App() {
 
                                   <div className="col-lg-3 col-md-4">
                                       <div className="gallery-item">
-                                          <a href="assets/img/gallery/gallery-4.jpg" className="glightbox" data-gallery="images-gallery">
-                                              <img src="assets/img/gallery/gallery-4.jpg" alt="" className="img-fluid" />
+                                          <a href="assets/img/cropped/gallery4.jpg" className="glightbox" data-gallery="images-gallery">
+                                              <img src="assets/img/cropped/gallery4.jpg" alt="" className="img-fluid"/>
                                           </a>
                                       </div>
                                   </div>
@@ -730,8 +792,8 @@ function App() {
 
                                   <div className="col-lg-3 col-md-4">
                                       <div className="gallery-item">
-                                          <a href="assets/img/gallery/gallery-5.jpg" className="glightbox" data-gallery="images-gallery">
-                                              <img src="assets/img/gallery/gallery-5.jpg" alt="" className="img-fluid" />
+                                          <a href="assets/img/cropped/gallery5.jpg" className="glightbox" data-gallery="images-gallery">
+                                              <img src="assets/img/cropped/gallery5.jpg" alt="" className="img-fluid"/>
                                           </a>
                                       </div>
                                   </div>
@@ -739,8 +801,8 @@ function App() {
 
                                   <div className="col-lg-3 col-md-4">
                                       <div className="gallery-item">
-                                          <a href="assets/img/gallery/gallery-6.jpg" className="glightbox" data-gallery="images-gallery">
-                                              <img src="assets/img/gallery/gallery-6.jpg" alt="" className="img-fluid" />
+                                          <a href="assets/img/cropped/gallery6.jpg" className="glightbox" data-gallery="images-gallery">
+                                              <img src="assets/img/cropped/gallery6.jpg" alt="" className="img-fluid"/>
                                           </a>
                                       </div>
                                   </div>
@@ -748,8 +810,8 @@ function App() {
 
                                   <div className="col-lg-3 col-md-4">
                                       <div className="gallery-item">
-                                          <a href="assets/img/gallery/gallery-7.jpg" className="glightbox" data-gallery="images-gallery">
-                                              <img src="assets/img/gallery/gallery-7.jpg" alt="" className="img-fluid" />
+                                          <a href="assets/img/cropped/gallery7.jpg" className="glightbox" data-gallery="images-gallery">
+                                              <img src="assets/img/cropped/gallery7.jpg" alt="" className="img-fluid"/>
                                           </a>
                                       </div>
                                   </div>
@@ -757,53 +819,88 @@ function App() {
 
                                   <div className="col-lg-3 col-md-4">
                                       <div className="gallery-item">
-                                          <a href="assets/img/gallery/gallery-8.jpg" className="glightbox" data-gallery="images-gallery">
-                                              <img src="assets/img/gallery/gallery-8.jpg" alt="" className="img-fluid" />
+                                          <a href="assets/img/cropped/gallery8.jpg" className="glightbox" data-gallery="images-gallery">
+                                              <img src="assets/img/cropped/gallery8.jpg" alt="" className="img-fluid"/>
                                           </a>
                                       </div>
                                   </div>
 
 
+                                  <div className="col-lg-3 col-md-4">
+                                      <div className="gallery-item">
+                                          <a href="assets/img/cropped/gallery9.jpg" className="glightbox" data-gallery="images-gallery">
+                                              <img src="assets/img/cropped/gallery9.jpg" alt="" className="img-fluid"/>
+                                          </a>
+                                      </div>
+                                  </div>
+
+
+                                  <div className="col-lg-3 col-md-4">
+                                      <div className="gallery-item">
+                                          <a href="assets/img/cropped/gallery10.jpg" className="glightbox" data-gallery="images-gallery">
+                                              <img src="assets/img/cropped/gallery10.jpg" alt="" className="img-fluid"/>
+                                          </a>
+                                      </div>
+                                  </div>
+
+
+                                  <div className="col-lg-3 col-md-4">
+                                      <div className="gallery-item">
+                                          <a href="assets/img/cropped/gallery11.jpg" className="glightbox" data-gallery="images-gallery">
+                                              <img src="assets/img/cropped/gallery11.jpg" alt="" className="img-fluid"/>
+                                          </a>
+                                      </div>
+                                  </div>
+
+
+                                  <div className="col-lg-3 col-md-4">
+                                      <div className="gallery-item">
+                                          <a href="assets/img/cropped/gallery0.jpg" className="glightbox" data-gallery="images-gallery">
+                                              <img src="assets/img/cropped/gallery0.jpg" alt="" className="img-fluid"/>
+                                          </a>
+                                      </div>
+                                  </div>
                               </div>
 
                           </div>
 
-                      </section><section id="contact" className="contact section">
+              </section>
+                  <section id="contact" className="contact section">
 
 
-                          <div className="container section-title" data-aos="fade-up">
-                              <span className="description-title">Contact Info</span>
-                              <h2>Contact Info</h2>
-                              {/* <p>Please reach out with any comments or concerns you may have or you can donate if you'd like, Thanks!</p> */}
-                          </div>
+                      <div className="container section-title" data-aos="fade-up">
+                          <span className="description-title">Contact Info</span>
+                          <h2>Contact Info</h2>
+                          {/* <p>Please reach out with any comments or concerns you may have or you can donate if you'd like, Thanks!</p> */}
+                      </div>
 
 
-                          <div className="container" data-aos="fade-up" data-aos-delay="100">
+                      <div className="container" data-aos="fade-up" data-aos-delay="100">
 
-                              <div className="row gy-4" data-aos="fade-up" data-aos-delay="200">
+                          <div className="row gy-4" data-aos="fade-up" data-aos-delay="200">
 
-                                  <div className="col-lg-4">
-                                      <div className="info-item d-flex flex-column justify-content-center align-items-center">
-                                          <i className="bi bi-geo-alt"></i>
-                                          <h3>Address</h3>
-                                          <p>A108 Adam Street, New York, NY 535022</p>
-                                      </div>
+                              <div className="col-lg-4">
+                                  <div className="info-item d-flex flex-column justify-content-center align-items-center">
+                                      <i className="bi bi-geo-alt"></i>
+                                      <h3>Address</h3>
+                                      <p>A108 Adam Street, New York, NY 535022</p>
                                   </div>
+                              </div>
 
 
-                                  <div className="col-lg-4">
-                                      <div className="info-item d-flex flex-column justify-content-center align-items-center info-item-borders">
-                                          <i className="bi bi-telephone"></i>
-                                          <h3><a href="https://app.thefield.org/profile/Jessica-DiMauro-Marks---DiMauro-Dance/550794" target="_blank">DONATE HERE</a></h3>
-                                          <p>THANK YOU FOR YOUR SUPPORT!</p>
-                                      </div>
+                              <div className="col-lg-4">
+                                  <div className="info-item d-flex flex-column justify-content-center align-items-center info-item-borders">
+                                      <i className="bi bi-telephone"></i>
+                                      <h3><a href="https://app.thefield.org/profile/Jessica-DiMauro-Marks---DiMauro-Dance/550794" target="_blank">DONATE HERE</a></h3>
+                                      <p>THANK YOU FOR YOUR SUPPORT!</p>
                                   </div>
+                              </div>
 
 
-                                  <div className="col-lg-4">
-                                      <div className="info-item d-flex flex-column justify-content-center align-items-center">
-                                          <i className="bi bi-envelope"></i>
-                                          <h3>Email Us</h3>
+                              <div className="col-lg-4">
+                                  <div className="info-item d-flex flex-column justify-content-center align-items-center">
+                                      <i className="bi bi-envelope"></i>
+                                      <h3>Email Us</h3>
                                           <p>info@example.com</p>
                                       </div>
                                   </div>
@@ -866,18 +963,13 @@ function App() {
                       </div>
                       <div className="credits">
 
-
-
-
                       This program has been made possible in part through the sponsorship of <a href="https://www.thefield.org/" target="_blank"> The Field</a>.
                       </div>
                   </div>
               </div>
           </footer>
 
-
           <a href="#" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
-
           
           <div id="preloader"></div>
       </div>
