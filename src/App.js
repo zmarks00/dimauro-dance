@@ -407,7 +407,7 @@ function App() {
 
                                   <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                                       <div className="portfolio-content h-100">
-                                          <img src="assets/img/portfolio/app-1.jpg" className="img-fluid" alt="" />
+                                          <img src="\assets\img\jessie2.webp" className="img-fluid" alt="" />
                                           <div className="portfolio-info">
                                               <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
                                               <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
@@ -418,7 +418,7 @@ function App() {
 
                                   <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                                       <div className="portfolio-content h-100">
-                                          <img src="assets/img/portfolio/product-1.jpg" className="img-fluid" alt="" />
+                                          <img src="\assets\img\gallery_compressed\Michael Lounsbery2.jpg" className="img-fluid" alt="" />
                                           <div className="portfolio-info">
                                               <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-product" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
                                               <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
