@@ -1,3 +1,5 @@
+import ComponentExample from './ComponetnExample';
+
 function Homepage() {
   return (
       <main className="main">
@@ -376,29 +378,9 @@ function Homepage() {
 
                           <div className="row g-0 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
+                              <ComponentExample filter={'headshots'} imgURL={'assets/img/portfolio_cropped/portfolio17.jpg'}/>
 
-                              <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-headshots">
-                                  <div className="portfolio-content h-100">
-                                      <img src="assets/img/portfolio_cropped/portfolio17.jpg" className="img-fluid" alt=""/>
-                                      <div className="portfolio-info">
-                                          <a href="assets/img/portfolio_cropped/portfolio17.jpg" data-gallery="portfolio-gallery-headshots" className="glightbox preview-link"><i
-                                              className="bi bi-zoom-in"></i></a>
-                                          <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
-                                      </div>
-                                  </div>
-                              </div>
-
-                              <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-teaching">
-                                  <div className="portfolio-content h-100">
-                                      <img src="assets/img/portfolio_cropped/portfolio1.jpg" className="img-fluid" alt=""/>
-                                      <div className="portfolio-info">
-                                          <a href="assets/img/portfolio_cropped/portfolio1.jpg" data-gallery="portfolio-gallery-teaching" className="glightbox preview-link"><i
-                                              className="bi bi-zoom-in"></i></a>
-                                          <a href="portfolio-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
-                                      </div>
-                                  </div>
-                              </div>
-
+                              <ComponentExample filter={'teaching'} imgURL={'assets/img/portfolio_cropped/portfolio1.jpg'}/>
 
                               <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-yoga">
                                   <div className="portfolio-content h-100">
@@ -433,6 +415,7 @@ function Homepage() {
                                       </div>
                                   </div>
                               </div>
+
 
 
                               <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ddance">
