@@ -43,7 +43,7 @@ function App() {
               This program has been made possible in part through the
               sponsorship of{" "}
               <a
-                className="donate__button-link"
+                className="donate__button-link italic__text"
                 href="https://www.thefield.org/"
                 target="_blank"
               >

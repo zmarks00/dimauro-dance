@@ -144,10 +144,10 @@ function Homepage() {
         <div className="container section-title" data-aos="fade-up">
           <span className="description-title">CHOREOGRAPHY</span>
           <h2>CHOREOGRAPHY</h2>
-          <p>
+          {/* <p>
             This is where we can attach a CV maybe or add a list of recent
             performances or accolades
-          </p>
+          </p> */}
         </div>
 
         <div className="container">
@@ -498,7 +498,7 @@ function Homepage() {
           <div className="container section-title" data-aos="fade-up">
             <span className="description-title">Portfolio</span>
             <h2>Portfolio</h2>
-            <p>A curated selection of Images pertaining to certain topics</p>
+            {/* <p>A curated selection of Images pertaining to certain topics</p> */}
           </div>
 
           <div className="container-fluid">
@@ -1316,10 +1316,10 @@ function Homepage() {
           <div className="container section-title" data-aos="fade-up">
             <span className="description-title">Contact Info</span>
             <h2>Contact</h2>
-            <p>
+            {/* <p>
               Please reach out with any comments or concerns you may have or you
               can donate if you'd like, Thanks!
-            </p>
+            </p> */}
           </div>
 
           <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -1328,7 +1328,9 @@ function Homepage() {
                 <div className="info-item d-flex flex-column justify-content-center align-items-center">
                   <i className="bi bi-geo-alt"></i>
                   <h3>Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>Grand Central Station</p>
+                  <p>P.O. Box 3331</p>
+                  <p>New York, NY 10163</p>
                 </div>
               </div>
 
@@ -1345,6 +1347,10 @@ function Homepage() {
                     </a>
                   </h3>
                   <p>Thank you for your support!</p>
+                  <p className="donatehere__text">
+                    Your donation is tax-deductible through our fiscal sponsor
+                    <span className="italic__text"> The Field.</span>
+                  </p>
                 </div>
               </div>
 
