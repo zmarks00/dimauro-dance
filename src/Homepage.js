@@ -101,7 +101,7 @@ function Homepage() {
               </p>
               <div className="row">
                 <div className="col-lg-6">
-                  <ul className="dancer__names">
+                  <ul className="list__items">
                     <li>
                       <i className="bi bi-chevron-right"></i>{" "}
                       <strong>COMPANY MEMBERS:</strong>{" "}
@@ -119,17 +119,17 @@ function Homepage() {
                       <i className="bi bi-chevron-right"></i>{" "}
                       <strong>CURRENT PRODUCTION:</strong>{" "}
                       <span>
-                        <p>
+                        <li>
                           <a
                             href="https://www.danceentropy.org/new-events/2024/9/12/underground-at-adgs-bare-bones-showcase"
                             target="_blank"
                           >
                             ADG's Bare Bones Series{" "}
                           </a>
-                        </p>
-                        <p>SUNDAY, NOVEMBER 17TH, 2024 4:00 PM</p>
-                        <p>THE Ailey Studios</p>
-                        <p>455 West 55th Street, NYC</p>
+                        </li>
+                        <li>SUNDAY, NOVEMBER 17TH, 2024 4:00 PM</li>
+                        <li>THE Ailey Studios</li>
+                        <li>455 West 55th Street, NYC</li>
                       </span>
                     </li>
                   </ul>

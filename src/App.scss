@@ -19,15 +19,6 @@ body {
     color: #fefae1;
 }
 
-.dancer__names {
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-    margin-bottom: 20px;
-    justify-content: center;
-    
-}
-
 .pagetitle {
     text-decoration: none;
     color: #0f0d01;
@@ -52,4 +43,10 @@ body {
 
 .italic__text {
     font-style: italic;
+}
+
+.list__items {
+    display: flex;
+    gap: 150px;
+    
 }
