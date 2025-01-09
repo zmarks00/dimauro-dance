@@ -13,3 +13,31 @@ body {
     background-color: $body-bg;
     color: #0F0D01;
 }
+
+.donate__button-link {
+    text-decoration: none;
+    color: #fefae1;
+}
+
+.dancer__names {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-bottom: 20px;
+    justify-content: center;
+    
+}
+
+.pagetitle {
+    text-decoration: none;
+    color: #0f0d01;
+    
+}
+
+.bio__text {
+    text-align: left;
+}
+
+.yoga__text {
+    text-align: left;
+}
