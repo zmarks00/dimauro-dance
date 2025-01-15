@@ -1,4 +1,4 @@
-import ComponentExample from "./ComponetnExample";
+import ComponentExample from "./ComponentExample";
 
 function Homepage() {
   return (
@@ -991,7 +991,16 @@ function Homepage() {
               <div className="col-lg-4">
                 <div className="info-item d-flex flex-column justify-content-center align-items-center">
                   <i className="bi bi-geo-alt"></i>
-                  <h3>Address</h3>
+                  <h3>
+                    {" "}
+                    <a
+                      className="address__button_link"
+                      href="https://www.google.com/maps/search/Grand+Central+Station++P.O.+Box+3331++New+York,+NY+10163/@40.7533622,-73.979379,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D"
+                      target="_blank"
+                    >
+                      Address
+                    </a>
+                  </h3>
                   <p>Grand Central Station</p>
                   <p>P.O. Box 3331</p>
                   <p>New York, NY 10163</p>
