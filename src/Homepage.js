@@ -537,395 +537,85 @@ function Homepage() {
                   imgURL={"assets/img/portfolio_cropped/portfolio1.jpg"}
                 />
 
-                <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-yoga">
-                  <div className="portfolio-content h-100">
-                    <img
-                      src="assets/img/portfolio_cropped/portfolio13.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <a
-                        href="assets/img/portfolio_cropped/portfolio13.jpg"
-                        data-gallery="portfolio-gallery-yoga"
-                        className="glightbox preview-link"
-                      >
-                        <i className="bi bi-zoom-in"></i>
-                      </a>
-                      <a
-                        href="portfolio-details.html"
-                        title="More Details"
-                        className="details-link"
-                      >
-                        <i className="bi bi-link-45deg"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <ComponentExample
+                  filter={"yoga"}
+                  imgURL={"assets/img/portfolio_cropped/portfolio13.jpg"}
+                />
 
-                <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-teaching">
-                  <div className="portfolio-content h-100">
-                    <img
-                      src="assets/img/portfolio_cropped/portfolio2.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <a
-                        href="assets/img/portfolio_cropped/portfolio2.jpg"
-                        data-gallery="portfolio-gallery-teaching"
-                        className="glightbox preview-link"
-                      >
-                        <i className="bi bi-zoom-in"></i>
-                      </a>
-                      <a
-                        href="portfolio-details.html"
-                        title="More Details"
-                        className="details-link"
-                      >
-                        <i className="bi bi-link-45deg"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <ComponentExample
+                  filter={"teaching"}
+                  imgURL={"assets/img/portfolio_cropped/portfolio2.jpg"}
+                />
 
-                <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ddance">
-                  <div className="portfolio-content h-100">
-                    <img
-                      src="assets/img/portfolio_cropped/portfolio3.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <a
-                        href="assets/img/portfolio_cropped/portfolio3.jpg"
-                        data-gallery="portfolio-gallery-ddance"
-                        className="glightbox preview-link"
-                      >
-                        <i className="bi bi-zoom-in"></i>
-                      </a>
-                      <a
-                        href="portfolio-details.html"
-                        title="More Details"
-                        className="details-link"
-                      >
-                        <i className="bi bi-link-45deg"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <ComponentExample
+                  filter={"ddance"}
+                  imgURL={"assets/img/portfolio_cropped/portfolio3.jpg"}
+                />
 
-                <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ddance">
-                  <div className="portfolio-content h-100">
-                    <img
-                      src="assets/img/portfolio_cropped/portfolio4.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <a
-                        href="assets/img/portfolio_cropped/portfolio4.jpg"
-                        data-gallery="portfolio-gallery-ddance"
-                        className="glightbox preview-link"
-                      >
-                        <i className="bi bi-zoom-in"></i>
-                      </a>
-                      <a
-                        href="portfolio-details.html"
-                        title="More Details"
-                        className="details-link"
-                      >
-                        <i className="bi bi-link-45deg"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <ComponentExample
+                  filter={"ddance"}
+                  imgURL={"assets/img/portfolio_cropped/portfolio4.jpg"}
+                />
 
-                <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-headshots">
-                  <div className="portfolio-content h-100">
-                    <img
-                      src="assets/img/portfolio_cropped/portfolio15.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <a
-                        href="assets/img/portfolio_cropped/portfolio15.jpg"
-                        data-gallery="portfolio-gallery-headshots"
-                        className="glightbox preview-link"
-                      >
-                        <i className="bi bi-zoom-in"></i>
-                      </a>
-                      <a
-                        href="portfolio-details.html"
-                        title="More Details"
-                        className="details-link"
-                      >
-                        <i className="bi bi-link-45deg"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <ComponentExample
+                  filter={"headshots"}
+                  imgURL={"assets/img/portfolio_cropped/portfolio15.jpg"}
+                />
 
-                <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-teaching">
-                  <div className="portfolio-content h-100">
-                    <img
-                      src="assets/img/portfolio_cropped/portfolio5.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <a
-                        href="assets/img/portfolio_cropped/portfolio5.jpg"
-                        data-gallery="portfolio-gallery-teaching"
-                        className="glightbox preview-link"
-                      >
-                        <i className="bi bi-zoom-in"></i>
-                      </a>
-                      <a
-                        href="portfolio-details.html"
-                        title="More Details"
-                        className="details-link"
-                      >
-                        <i className="bi bi-link-45deg"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <ComponentExample
+                  filter={"teaching"}
+                  imgURL={"assets/img/portfolio_cropped/portfolio5.jpg"}
+                />
 
-                <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ddance">
-                  <div className="portfolio-content h-100">
-                    <img
-                      src="assets/img/portfolio_cropped/portfolio6.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <a
-                        href="assets/img/portfolio_cropped/portfolio6.jpg"
-                        data-gallery="portfolio-gallery-ddance"
-                        className="glightbox preview-link"
-                      >
-                        <i className="bi bi-zoom-in"></i>
-                      </a>
-                      <a
-                        href="portfolio-details.html"
-                        title="More Details"
-                        className="details-link"
-                      >
-                        <i className="bi bi-link-45deg"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <ComponentExample
+                  filter={"ddance"}
+                  imgURL={"assets/img/portfolio_cropped/portfolio6.jpg"}
+                />
 
-                <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ddance">
-                  <div className="portfolio-content h-100">
-                    <img
-                      src="assets/img/portfolio_cropped/portfolio7.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <a
-                        href="assets/img/portfolio_cropped/portfolio7.jpg"
-                        data-gallery="portfolio-gallery-ddance"
-                        className="glightbox preview-link"
-                      >
-                        <i className="bi bi-zoom-in"></i>
-                      </a>
-                      <a
-                        href="portfolio-details.html"
-                        title="More Details"
-                        className="details-link"
-                      >
-                        <i className="bi bi-link-45deg"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <ComponentExample
+                  filter={"ddance"}
+                  imgURL={"assets/img/portfolio_cropped/portfolio7.jpg"}
+                />
 
-                <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ddance">
-                  <div className="portfolio-content h-100">
-                    <img
-                      src="assets/img/portfolio_cropped/portfolio9.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <a
-                        href="assets/img/portfolio_cropped/portfolio9.jpg"
-                        data-gallery="portfolio-gallery-ddance"
-                        className="glightbox preview-link"
-                      >
-                        <i className="bi bi-zoom-in"></i>
-                      </a>
-                      <a
-                        href="portfolio-details.html"
-                        title="More Details"
-                        className="details-link"
-                      >
-                        <i className="bi bi-link-45deg"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <ComponentExample
+                  filter={"ddance"}
+                  imgURL={"assets/img/portfolio_cropped/portfolio9.jpg"}
+                />
 
-                <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ddance">
-                  <div className="portfolio-content h-100">
-                    <img
-                      src="assets/img/portfolio_cropped/portfolio8.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <a
-                        href="assets/img/portfolio_cropped/portfolio8.jpg"
-                        data-gallery="portfolio-gallery-ddance"
-                        className="glightbox preview-link"
-                      >
-                        <i className="bi bi-zoom-in"></i>
-                      </a>
-                      <a
-                        href="portfolio-details.html"
-                        title="More Details"
-                        className="details-link"
-                      >
-                        <i className="bi bi-link-45deg"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <ComponentExample
+                  filter={"ddance"}
+                  imgURL={"assets/img/portfolio_cropped/portfolio8.jpg"}
+                />
 
-                <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ddance">
-                  <div className="portfolio-content h-100">
-                    <img
-                      src="assets/img/portfolio_cropped/portfolio10.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <a
-                        href="assets/img/portfolio_cropped/portfolio10.jpg"
-                        data-gallery="portfolio-gallery-ddance"
-                        className="glightbox preview-link"
-                      >
-                        <i className="bi bi-zoom-in"></i>
-                      </a>
-                      <a
-                        href="portfolio-details.html"
-                        title="More Details"
-                        className="details-link"
-                      >
-                        <i className="bi bi-link-45deg"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <ComponentExample
+                  filter={"ddance"}
+                  imgURL={"assets/img/portfolio_cropped/portfolio10.jpg"}
+                />
 
-                <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-headshots">
-                  <div className="portfolio-content h-100">
-                    <img
-                      src="assets/img/portfolio_cropped/portfolio16.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <a
-                        href="assets/img/portfolio_cropped/portfolio16.jpg"
-                        data-gallery="portfolio-gallery-headshots"
-                        className="glightbox preview-link"
-                      >
-                        <i className="bi bi-zoom-in"></i>
-                      </a>
-                      <a
-                        href="portfolio-details.html"
-                        title="More Details"
-                        className="details-link"
-                      >
-                        <i className="bi bi-link-45deg"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <ComponentExample
+                  filter={"headshots"}
+                  imgURL={"assets/img/portfolio_cropped/portfolio16.jpg"}
+                />
 
-                <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ddance">
-                  <div className="portfolio-content h-100">
-                    <img
-                      src="assets/img/portfolio_cropped/portfolio11.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <a
-                        href="assets/img/portfolio_cropped/portfolio11.jpg"
-                        data-gallery="portfolio-gallery-ddance"
-                        className="glightbox preview-link"
-                      >
-                        <i className="bi bi-zoom-in"></i>
-                      </a>
-                      <a
-                        href="portfolio-details.html"
-                        title="More Details"
-                        className="details-link"
-                      >
-                        <i className="bi bi-link-45deg"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <ComponentExample
+                  filter={"ddance"}
+                  imgURL={"assets/img/portfolio_cropped/portfolio11.jpg"}
+                />
 
-                <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-headshots">
-                  <div className="portfolio-content h-100">
-                    <img
-                      src="assets/img/portfolio_cropped/portfolio12.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <a
-                        href="assets/img/portfolio_cropped/portfolio12.jpg"
-                        data-gallery="portfolio-gallery-headshots"
-                        className="glightbox preview-link"
-                      >
-                        <i className="bi bi-zoom-in"></i>
-                      </a>
-                      <a
-                        href="portfolio-details.html"
-                        title="More Details"
-                        className="details-link"
-                      >
-                        <i className="bi bi-link-45deg"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <ComponentExample
+                  filter={"ddance"}
+                  imgURL={"assets/img/portfolio_cropped/portfolio12.jpg"}
+                />
 
-                <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ddance">
-                  <div className="portfolio-content h-100">
-                    <img
-                      src="assets/img/portfolio_cropped/portfolio14.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <a
-                        href="assets/img/portfolio_cropped/portfolio14.jpg"
-                        data-gallery="portfolio-gallery-ddance"
-                        className="glightbox preview-link"
-                      >
-                        <i className="bi bi-zoom-in"></i>
-                      </a>
-                      <a
-                        href="portfolio-details.html"
-                        title="More Details"
-                        className="details-link"
-                      >
-                        <i className="bi bi-link-45deg"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <ComponentExample
+                  filter={"ddance"}
+                  imgURL={"assets/img/portfolio_cropped/portfolio14.jpg"}
+                />
+
+                <ComponentExample
+                  filter={"headshots"}
+                  imgURL={"assets/img/portfolio_cropped/portfolio19.jpg"}
+                />
 
                 {/*<div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-headshots">
                                       <div className="portfolio-content h-100">
@@ -937,32 +627,6 @@ function Homepage() {
                                           </div>
                                       </div>
                                   </div>*/}
-
-                <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-headshots">
-                  <div className="portfolio-content h-100">
-                    <img
-                      src="assets/img/portfolio_cropped/portfolio19.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
-                    <div className="portfolio-info">
-                      <a
-                        href="assets/img/portfolio_cropped/portfolio19.jpg"
-                        data-gallery="portfolio-gallery-headshots"
-                        className="glightbox preview-link"
-                      >
-                        <i className="bi bi-zoom-in"></i>
-                      </a>
-                      <a
-                        href="portfolio-details.html"
-                        title="More Details"
-                        className="details-link"
-                      >
-                        <i className="bi bi-link-45deg"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
