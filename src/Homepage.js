@@ -1,4 +1,5 @@
 import ComponentExample from "./ComponentExample";
+import ComponentExample2 from "./ComponentExample2";
 
 function Homepage() {
   return (
@@ -781,197 +782,42 @@ function Homepage() {
             data-aos-delay="100"
           >
             <div className="row g-0">
-              <div className="col-lg-3 col-md-4">
-                <div className="gallery-item">
-                  <a
-                    href="assets/img/cropped/gallery1.jpg"
-                    className="glightbox"
-                    data-gallery="images-gallery"
-                  >
-                    <img
-                      src="assets/img/cropped/gallery1.jpg"
-                      alt=""
-                      className="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4">
-                <div className="gallery-item">
-                  <a
-                    href="assets/img/cropped/gallery2.jpg"
-                    className="glightbox"
-                    data-gallery="images-gallery"
-                  >
-                    <img
-                      src="assets/img/cropped/gallery2.jpg"
-                      alt=""
-                      className="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4">
-                <div className="gallery-item">
-                  <a
-                    href="assets/img/cropped/gallery3.jpg"
-                    className="glightbox"
-                    data-gallery="images-gallery"
-                  >
-                    <img
-                      src="assets/img/cropped/gallery3.jpg"
-                      alt=""
-                      className="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4">
-                <div className="gallery-item">
-                  <a
-                    href="assets/img/cropped/gallery4.jpg"
-                    className="glightbox"
-                    data-gallery="images-gallery"
-                  >
-                    <img
-                      src="assets/img/cropped/gallery4.jpg"
-                      alt=""
-                      className="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4">
-                <div className="gallery-item">
-                  <a
-                    href="assets/img/cropped/gallery5.jpg"
-                    className="glightbox"
-                    data-gallery="images-gallery"
-                  >
-                    <img
-                      src="assets/img/cropped/gallery5.jpg"
-                      alt=""
-                      className="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4">
-                <div className="gallery-item">
-                  <a
-                    href="assets/img/cropped/gallery6.jpg"
-                    className="glightbox"
-                    data-gallery="images-gallery"
-                  >
-                    <img
-                      src="assets/img/cropped/gallery6.jpg"
-                      alt=""
-                      className="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4">
-                <div className="gallery-item">
-                  <a
-                    href="assets/img/cropped/gallery7.jpg"
-                    className="glightbox"
-                    data-gallery="images-gallery"
-                  >
-                    <img
-                      src="assets/img/cropped/gallery7.jpg"
-                      alt=""
-                      className="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4">
-                <div className="gallery-item">
-                  <a
-                    href="assets/img/cropped/gallery8.jpg"
-                    className="glightbox"
-                    data-gallery="images-gallery"
-                  >
-                    <img
-                      src="assets/img/cropped/gallery8.jpg"
-                      alt=""
-                      className="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4">
-                <div className="gallery-item">
-                  <a
-                    href="assets/img/cropped/gallery9.jpg"
-                    className="glightbox"
-                    data-gallery="images-gallery"
-                  >
-                    <img
-                      src="assets/img/cropped/gallery9.jpg"
-                      alt=""
-                      className="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4">
-                <div className="gallery-item">
-                  <a
-                    href="assets/img/cropped/gallery10.jpg"
-                    className="glightbox"
-                    data-gallery="images-gallery"
-                  >
-                    <img
-                      src="assets/img/cropped/gallery10.jpg"
-                      alt=""
-                      className="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4">
-                <div className="gallery-item">
-                  <a
-                    href="assets/img/cropped/gallery11.jpg"
-                    className="glightbox"
-                    data-gallery="images-gallery"
-                  >
-                    <img
-                      src="assets/img/cropped/gallery11.jpg"
-                      alt=""
-                      className="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4">
-                <div className="gallery-item">
-                  <a
-                    href="assets/img/cropped/gallery0.jpg"
-                    className="glightbox"
-                    data-gallery="images-gallery"
-                  >
-                    <img
-                      src="assets/img/cropped/gallery0.jpg"
-                      alt=""
-                      className="img-fluid"
-                    />
-                  </a>
-                </div>
-              </div>
+              <ComponentExample2
+                imgLinkAndSrc={"assets/img/cropped/gallery1.jpg"}
+              />
+              <ComponentExample2
+                imgLinkAndSrc={"assets/img/cropped/gallery2.jpg"}
+              />
+              <ComponentExample2
+                imgLinkAndSrc={"assets/img/cropped/gallery3.jpg"}
+              />
+              <ComponentExample2
+                imgLinkAndSrc={"assets/img/cropped/gallery4.jpg"}
+              />
+              <ComponentExample2
+                imgLinkAndSrc={"assets/img/cropped/gallery5.jpg"}
+              />
+              <ComponentExample2
+                imgLinkAndSrc={"assets/img/cropped/gallery6.jpg"}
+              />
+              <ComponentExample2
+                imgLinkAndSrc={"assets/img/cropped/gallery7.jpg"}
+              />
+              <ComponentExample2
+                imgLinkAndSrc={"assets/img/cropped/gallery8.jpg"}
+              />
+              <ComponentExample2
+                imgLinkAndSrc={"assets/img/cropped/gallery9.jpg"}
+              />
+              <ComponentExample2
+                imgLinkAndSrc={"assets/img/cropped/gallery10.jpg"}
+              />
+              <ComponentExample2
+                imgLinkAndSrc={"assets/img/cropped/gallery11.jpg"}
+              />
+              <ComponentExample2
+                imgLinkAndSrc={"assets/img/cropped/gallery0.jpg"}
+              />
             </div>
           </div>
         </section>
